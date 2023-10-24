@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <h2>Simple App</h1>
+        <button id="signIn" onclick="signIn()">Login</button>
+        <button id="signOut" onclick="signOut()">Logout</button>
+        <button id="local">Call Local API</button>
+        <button id="api">Call Remote API</button>
+
+        <pre id="results"></pre>
+
+        <hr />
+        <p>
+            <label>Id Token:</label>
+        </p>
+        <p>
+            <textarea id="txtIdToken" style="width: 536px; height: 190px;"></textarea>
+        </p>
+        <hr />
+        <p>
+            <label>Access Token:</label>
+        </p>
+        <p>
+            <textarea id="txtAccessToken" style="width: 536px; height: 190px;"></textarea>
+        </p>
+
+        <!-- OIDC Standard -->
+        <script src="./oidc/oidc-client.js"></script>
+        <script src="./oidc/demo-oidc.js"></script>
+
+        <script src="app.js"></script>
+</body>
+</html>

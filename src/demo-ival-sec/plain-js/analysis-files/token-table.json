@@ -1,0 +1,47 @@
+// Key	Value
+// 84deb717-ec82-4dcc-bdf3-7eaa3ce1b765-b2c_1_susi.775527ff-9a37-4307-8b3d-cc311f58d925-fabrikamb2c.b2clogin.com-	
+// ID
+{
+    "authorityType": "MSSTS",
+    "clientInfo": "eyJ1aWQiOiI4NGRlYjcxNy1lYzgyLTRkY2MtYmRmMy03ZWFhM2NlMWI3NjUtYjJjXzFfc3VzaSIsInV0aWQiOiI3NzU1MjdmZi05YTM3LTQzMDctOGIzZC1jYzMxMWY1OGQ5MjUifQ",
+    "homeAccountId": "84deb717-ec82-4dcc-bdf3-7eaa3ce1b765-b2c_1_susi.775527ff-9a37-4307-8b3d-cc311f58d925",
+    "environment": "fabrikamb2c.b2clogin.com",
+    "realm": "",
+    "localAccountId": "84deb717-ec82-4dcc-bdf3-7eaa3ce1b765",
+    "username": "abarberena_gil@hotmail.com",
+    "name": "Abe BarberenaGil"
+}
+// 84deb717-ec82-4dcc-bdf3-7eaa3ce1b765-b2c_1_susi.775527ff-9a37-4307-8b3d-cc311f58d925-fabrikamb2c.b2clogin.com-accesstoken-2fdd06f3-7b34-49a3-a78b-0cf1dd87878e--https://fabrikamb2c.onmicrosoft.com/helloapi/demo.read
+// accesstoken
+{
+    "homeAccountId": "84deb717-ec82-4dcc-bdf3-7eaa3ce1b765-b2c_1_susi.775527ff-9a37-4307-8b3d-cc311f58d925",
+    "credentialType": "AccessToken",
+    "secret": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ilg1ZVhrNHh5b2pORnVtMWtsMll0djhkbE5QNC1jNTdkTzZRR1RWQndhTmsiLCJ0eXAiOiJKV1QifQ.eyJpZHAiOiJsaXZlLmNvbSIsIm5hbWUiOiJBYmUgQmFyYmVyZW5hR2lsIiwib2lkIjoiODRkZWI3MTctZWM4Mi00ZGNjLWJkZjMtN2VhYTNjZTFiNzY1Iiwic3ViIjoiODRkZWI3MTctZWM4Mi00ZGNjLWJkZjMtN2VhYTNjZTFiNzY1IiwiY2l0eSI6Ik9DIiwiZW1haWxzIjpbImFiYXJiZXJlbmFfZ2lsQGhvdG1haWwuY29tIl0sIm5vbmNlIjoiMzc3MzAzNzEtNjUyMy00ZDA4LWI0YjctMGE0MGU5ZWE2YjEyIiwic2NwIjoiZGVtby5yZWFkIiwiYXpwIjoiMmZkZDA2ZjMtN2IzNC00OWEzLWE3OGItMGNmMWRkODc4NzhlIiwidmVyIjoiMS4wIiwiaWF0IjoxNjk3Njg3NTU1LCJhdWQiOiI5MzczMzYwNC1jYzc3LTRhM2MtYTYwNC04NzA4NGRkNTUzNDgiLCJleHAiOjE2OTc2OTExNTUsImlzcyI6Imh0dHBzOi8vZmFicmlrYW1iMmMuYjJjbG9naW4uY29tLzc3NTUyN2ZmLTlhMzctNDMwNy04YjNkLWNjMzExZjU4ZDkyNS92Mi4wLyIsIm5iZiI6MTY5NzY4NzU1NX0.pa_5sjFLKy3K5U5ryjAw7rzguqSWcq_3xjGLtUHhg7dQWsIBfl_SmyA_kSa9nSZbOS2Yxj9jdRV4nIkASTkqEsF2CtrRAshqR2HC-GTchQhMk38szXBsmJqyG6cgp-zUW5g8WdaK6EHj3oLd5tiQb9CJDpn05kb_RKRYTKpaXnIj6m8pRGdobBB6pSvXBYqtSrn0rikyHkqL-E51KWMOBK-8kBFTQ5NTav3a9pRdt5Cr3zvoL0Ika7RUyaC_HjpULuiRvkfSNWa2CrlvqLr_B1Yk0WhL8H1f2jgyYFukeRutxt00QPuO1dpdciZwTwEesKibzRyvxTjGoxCudAtLZw",
+    "cachedAt": "1697687553",
+    "expiresOn": "1697691140",
+    "extendedExpiresOn": "NaN",
+    "environment": "fabrikamb2c.b2clogin.com",
+    "clientId": "2fdd06f3-7b34-49a3-a78b-0cf1dd87878e",
+    "realm": "",
+    "target": "https://fabrikamb2c.onmicrosoft.com/helloapi/demo.read",
+    "tokenType": "Bearer"
+}
+//84deb717-ec82-4dcc-bdf3-7eaa3ce1b765-b2c_1_susi.775527ff-9a37-4307-8b3d-cc311f58d925-fabrikamb2c.b2clogin.com-idtoken-2fdd06f3-7b34-49a3-a78b-0cf1dd87878e--	
+// IdToken
+{
+    "credentialType": "IdToken",
+    "homeAccountId": "84deb717-ec82-4dcc-bdf3-7eaa3ce1b765-b2c_1_susi.775527ff-9a37-4307-8b3d-cc311f58d925",
+    "environment": "fabrikamb2c.b2clogin.com",
+    "clientId": "2fdd06f3-7b34-49a3-a78b-0cf1dd87878e",
+    "secret": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ilg1ZVhrNHh5b2pORnVtMWtsMll0djhkbE5QNC1jNTdkTzZRR1RWQndhTmsiLCJ0eXAiOiJKV1QifQ.eyJ2ZXIiOiIxLjAiLCJpc3MiOiJodHRwczovL2ZhYnJpa2FtYjJjLmIyY2xvZ2luLmNvbS83NzU1MjdmZi05YTM3LTQzMDctOGIzZC1jYzMxMWY1OGQ5MjUvdjIuMC8iLCJzdWIiOiI4NGRlYjcxNy1lYzgyLTRkY2MtYmRmMy03ZWFhM2NlMWI3NjUiLCJhdWQiOiIyZmRkMDZmMy03YjM0LTQ5YTMtYTc4Yi0wY2YxZGQ4Nzg3OGUiLCJleHAiOjE2OTc2OTExNTUsImFjciI6ImIyY18xX3N1c2kiLCJub25jZSI6IjM3NzMwMzcxLTY1MjMtNGQwOC1iNGI3LTBhNDBlOWVhNmIxMiIsImlhdCI6MTY5NzY4NzU1NSwiYXV0aF90aW1lIjoxNjk3Njg3NTUxLCJpZHAiOiJsaXZlLmNvbSIsIm5hbWUiOiJBYmUgQmFyYmVyZW5hR2lsIiwib2lkIjoiODRkZWI3MTctZWM4Mi00ZGNjLWJkZjMtN2VhYTNjZTFiNzY1IiwiY2l0eSI6Ik9DIiwiZW1haWxzIjpbImFiYXJiZXJlbmFfZ2lsQGhvdG1haWwuY29tIl0sImF0X2hhc2giOiJmMzV6N3BaRnU4aHFybU83OVRUbjd3IiwibmJmIjoxNjk3Njg3NTU1fQ.DbeI5c9LP-vqzLXp0gz1qwUB1geBQfPkVGzbPLyoUFQAloxKgXRnBF_ZkFBWTX2tSzS3L0XZ38G3v8bQjG_Z0Frnm9vqiTI9LMSGNjbguyoMv_oq9E2xHwDxAaEJ6_TWbvBGS1J-qhn5kredh2gK2He1Iu7s0JX7CmqnksDZXqflXRq69AZZjQRcFgRV0ccQBDpD6yRth-hUJy2qyiaAhaoHAbZj3fqxaOnRh988PEBlIx4hLE4JYORnnHCmIYUh8UG_wyewZHjATzsUdcU7rAhPtG8s00bHG0VFelD3-fh164g2DzrukQaM2xzH-MgEmTG6qbwcW7nYf02EUePBRQ",
+    "realm": ""
+}
+//84deb717-ec82-4dcc-bdf3-7eaa3ce1b765-b2c_1_susi.775527ff-9a37-4307-8b3d-cc311f58d925-fabrikamb2c.b2clogin.com-refreshtoken-2fdd06f3-7b34-49a3-a78b-0cf1dd87878e--
+// RefreshToken
+{
+    "clientId": "2fdd06f3-7b34-49a3-a78b-0cf1dd87878e",
+    "credentialType": "RefreshToken",
+    "environment": "fabrikamb2c.b2clogin.com",
+    "homeAccountId": "84deb717-ec82-4dcc-bdf3-7eaa3ce1b765-b2c_1_susi.775527ff-9a37-4307-8b3d-cc311f58d925",
+    "secret": "eyJraWQiOiJjcGltY29yZV8wOTI1MjAxNSIsInZlciI6IjEuMCIsInppcCI6IkRlZmxhdGUiLCJzZXIiOiIxLjAifQ..EZ-Hu4bVlT9tqEsW.LJVw9fcmYObkg04eTRLxaQJUR85O29ooCY6VmnPxNoy16BAkD5y97vf2VJvVM09F8CIiesm8O2BUWXEhtzX4ZKahQI8vQDBBXmNwB9rz_1DraIaOHZD6T-0S4lBVBd1NN5p1hnbz07zNEGec1I0sj2LCIyOBPpeyrKIpQqjHvh0C4psOOc0HTs_DhnMWRzPGahdlFdML1by1yhQ3gpkbf-3DOrzkLRS39zs5LeGUNtwVGL-axxLbHC3taIqrZnHASyfzm2q3ZC2S8sDHcXC6kG9wnPHtwzSrIXhWzebbeR5NKNb37s2bLch4NAvUuol07eiou6Z_zfAcqFDeVTMsw9iFV9YurQYfqAFr_vvBlF6dELYOWjcocJFTgTI5vM_VNhTYmoptuGc35KA6HAVbNhTS9UpNYCt_Vv9nMDKThFHSCyVfcu_ryaRyeLCKTub5vzUAS7MLFMaPfKvGKipXYsLA13aa9gutjIQ8GWuj9IuxRA9lTRB5_7JD4R3sfcQ2dxG-qIT7hcY1X2wweMt1r9AP099pfx9lwS6HXKJkUYd3ExErnGRMapG4D2Izzcq4-3_Z8FbUN1HDhdF7gphl5lBwLYBFy6imcjO8HXCZFTof5rHJVAVZGFg3eYid8jKEdL6wJqnpUCux2isrxPjAu8DqSGJo0SpmgwiGikpizXok4wr3UxD1skX4jTcmbUKZmW-nfNuRuPF5DDmfPOcD6nQIfyQ47VJ-GPr6vJh4XqRf8L4hyg.cDTuvVslgy_eTGNdfkWU0A"
+}

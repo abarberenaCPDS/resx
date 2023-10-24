@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "launch-demo-oidc",
+            "request": "launch",
+            "url": "http://localhost:5002"
+        }
+    ]
+}

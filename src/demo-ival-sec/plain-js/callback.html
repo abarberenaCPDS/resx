@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!-- msal.min.js can be used in the place of msal.js; included msal.js to make debug easy -->
+        <!--
+            MSAL 
+        -->
+        <!-- 
+        <script src="https://alcdn.msauth.net/browser/2.30.0/js/msal-browser.js"
+            integrity="sha384-o4ufwq3oKqc7IoCcR08YtZXmgOljhTggRwxP2CLbSqeXGtitAxwYaUln/05nJjit"
+            crossorigin="anonymous"></script>
+
+        -->
+        <script src="demo-msal.js"></script>
+
+        <!-- importing app scripts (load order is important) -->
+        <!--
+        <script type="text/javascript" src="./msal-org/apiConfig.js"></script>
+        <script type="text/javascript" src="./msal-org/policies.js"></script>
+        <script type="text/javascript" src="./msal-org/authConfig.js"></script>
+        <script type="text/javascript" src="./msal-org/authRedirect.js"></script>
+        -->
+        
+        
+        <!-- uncomment the above line and comment the line below if you would like to use the Popup flow -->
+        <!--
+        <script type="text/javascript" src="./msal-org/authPopup.js"></script>
+        -->
+        
+        <!--
+            <script type="text/javascript" src="./msal-org/ui.js"></script>
+            <script type="text/javascript">
+                
+                {{/*  new Oidc.UserManager({ response_mode: "query" })
+                .signinRedirectCallback()
+                .then(function () {
+                    window.location = "index.html";
+                }).catch(function (e) {
+                    console.error(e);
+                });  */}}
+            </script>
+        -->
+            
+</body>
+</html>

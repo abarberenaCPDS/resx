@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <h2>Simple App</h1>
+        <button id="signIn" onclick="signIn()">Login</button>
+        <button id="signOut" onclick="signOut()">Logout</button>
+        <button id="local">Call Local API</button>
+        <button id="api">Call Remote API</button>
+
+        <pre id="results"></pre>
+
+        <hr />
+        <p>
+            <label>Id Token:</label>
+        </p>
+        <p>
+            <textarea id="txtIdToken" style="width: 536px; height: 190px;"></textarea>
+        </p>
+        <hr />
+        <p>
+            <label>Access Token:</label>
+        </p>
+        <p>
+            <textarea id="txtAccessToken" style="width: 536px; height: 190px;"></textarea>
+        </p>
+
+        <!-- msal.min.js can be used in the place of msal.js; included msal.js to make debug easy -->
+        <!--
+            MSAL 
+        -->
+        <script src="https://alcdn.msauth.net/browser/2.30.0/js/msal-browser.js"
+            integrity="sha384-o4ufwq3oKqc7IoCcR08YtZXmgOljhTggRwxP2CLbSqeXGtitAxwYaUln/05nJjit"
+            crossorigin="anonymous"></script>
+
+        <!-- 
+            <script src="demo-msal.js"></script>
+        -->
+
+        <!-- importing app scripts (load order is important) -->
+        <script type="text/javascript" src="./msal-org/apiConfig.js"></script>
+        <script type="text/javascript" src="./msal-org/policies.js"></script>
+        <script type="text/javascript" src="./msal-org/authConfig.js"></script>
+        <script type="text/javascript" src="./msal-org/ui.js"></script>
+
+
+        <script type="text/javascript" src="./msal-org/authRedirect.js"></script>
+        <!--
+        -->
+        
+        <!-- uncomment the above line and comment the line below if you would like to use the Popup flow -->
+        <!--
+        <script type="text/javascript" src="./msal-org/authPopup.js"></script>
+        -->
+
+        <script type="text/javascript" src="./msal-org/api.js"></script>
+
+</body>
+
+</html>

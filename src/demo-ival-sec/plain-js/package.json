@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "name": "cli",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server -p 5002",
+    "oidc": "http-server -p 5002",
+    "msal": "http-server -p 6240"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
