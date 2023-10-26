@@ -1,4 +1,5 @@
-var config = {
+// Authority: Duende Identity Server
+var config1 = {
     authority: "https://demo.duendesoftware.com",
     client_id: "interactive.public.short",
     redirect_uri: "http://localhost:5002/callback-oidc.html",
@@ -7,15 +8,15 @@ var config = {
     post_logout_redirect_uri: "http://localhost:5002/index-oidc.html",
 };
 
-// var config = {
-//     authority: "https://dev-6b0mu6pvkqz2xf0v.us.auth0.com/",
-//     client_id: "3M90HmrkSs7hcbi1A7C8K4LUMHyEAAPP",
-//     redirect_uri: "http://localhost:5002/callback-oidc.html",
-//     response_type: "code",
-//     scope: "openid profile email api offline_access",
-//     post_logout_redirect_uri: "http://localhost:5002/index-oidc.html",
-// };
-
+// Authority: Auth0
+var config = {
+    authority: "https://dev-6b0mu6pvkqz2xf0v.us.auth0.com/",
+    client_id: "3M90HmrkSs7hcbi1A7C8K4LUMHyEAAPP",
+    redirect_uri: "http://localhost:5002/callback-oidc.html",
+    response_type: "code",
+    scope: "openid profile email api offline_access",
+    post_logout_redirect_uri: "http://localhost:5002/index-oidc.html",
+};
 
 // Oidc.Log.logger = console;
 

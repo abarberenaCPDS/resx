@@ -17,9 +17,21 @@ builder.Services.AddAuthentication(options =>
     options.Cookie.SameSite = SameSiteMode.Strict;
 }).AddOpenIdConnect("oidc", options =>
 {
-    options.Authority = "https://demo.duendesoftware.com";
-    options.ClientId = "interactive.confidential.short";
-    options.ClientSecret = "secret";
+    // Duende Software
+    //options.Authority = "https://demo.duendesoftware.com";
+    //options.ClientId = "interactive.confidential.short";
+    //options.ClientSecret = "secret";
+
+    // AUTH0
+    //options.Authority = "https://dev-6b0mu6pvkqz2xf0v.us.auth0.com/";
+    //options.ClientId = "3M90HmrkSs7hcbi1A7C8K4LUMHyEAAPP";
+
+    // B2C jwt-test-app
+    options.Authority = "https://iamvresdnadev001.b2clogin.com/iamvresdnadev001.onmicrosoft.com/b2c_1a_signup_signin/v2.0/";
+    options.ClientId = "3e68a722-16f7-4582-90d1-514a16fa6919";
+
+    // Common Fields
+
     options.ResponseType = "code";
     options.ResponseMode = "query";
 
@@ -30,8 +42,13 @@ builder.Services.AddAuthentication(options =>
     options.Scope.Clear();
     options.Scope.Add("openid");
     options.Scope.Add("profile");
-    options.Scope.Add("api");
-    options.Scope.Add("offline_access");
+
+    // B2C jwt-test-app
+    options.Scope.Add(options.ClientId);
+    //options.Scope.Add("https://iamvresdnadev001.onmicrosoft.com/app-desktop-eval-bff/read.access");
+    //options.Scope.Add("api");
+    //options.Scope.Add("offline_access");
+    //options.ClientSecret = "McZ8Q~s6l21IvVtCUUoPk8GD361aAhI1jjOKLcnm";
 
     options.TokenValidationParameters = new()
     {
