@@ -10,7 +10,7 @@
     <h2>Simple App</h1>
         <button id="signIn" onclick="signIn()">Login</button>
         <button id="signOut" onclick="signOut()">Logout</button>
-        <button id="local">Call Local API</button>
+        <button id="local" onclick="passTokenToApi()">Call Local API</button>
         <button id="api">Call Remote API</button>
 
         <pre id="results"></pre>
@@ -60,6 +60,7 @@
 
         <script type="text/javascript" src="./msal-org/api.js"></script>
 
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.6.0/dist/axios.min.js"></script>
 </body>
 
 </html>
