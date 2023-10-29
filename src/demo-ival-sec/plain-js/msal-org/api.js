@@ -1,35 +1,22 @@
-async function callApi(endpoint, token) {
-    
-    const headers = new Headers();
-    const bearer = `Bearer ${token}`;
-  
-    headers.append("Authorization", bearer);
-    headers.append("Content-Type", "application/json");
-  
-    const options = {
-        method: "GET",
-        headers: [
-          {"Authorization" : bearer},
-          // {"Access-Control-Allow-Origin" : '*'},
-          {"Content-Type": "application/json"}
-        ],
-        url: endpoint,
-        // responseType: 'stream'
-      };
+function callApi(endpoint, token) {
 
-      console.log('Calling web API...');
-      await axios(options)
-      .then(response => {
 
-        if (response) {
-          console.log('Web API responded: ' + response.name);
-        }
+  const bearer = `Bearer ${token}`;
 
-        var r = response.data.json();
-        console.log(r)
-        
-        return response;
-      }).catch(error => {
-        console.error(error);
-      });
-  }
+  console.log('Calling web API...');
+  axios.get(endpoint, { headers: { Authorization: bearer } })
+    .then(response => {
+
+      if (response) {
+        console.log('Web API responded: ' + response.name);
+      }
+
+      var r = response.data;
+      console.log(r)
+
+      return r;
+
+    }).catch(error => {
+      console.error(error);
+    });
+}
