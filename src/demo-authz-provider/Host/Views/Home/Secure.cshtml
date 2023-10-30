@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "Authorized?";
+    ViewData["ClaimsSource"] = "";
+}
+
+@model PolicyServer.Runtime.Client.PolicyResult
+
+<h1>== Logged in User Claims: @User.Identity.Name == </h1>
+@foreach (var id in User.Identities)
+    {
+        if (id.AuthenticationType.Contains("password"))
+        {
+            ViewData["ClaimsSource"] = "OIDC (Azure B2C, IBM, VA Access, Identity Server, Auth0, etc.)";
+        }
+        else if (id.AuthenticationType.Contains("PolicyServerMiddleware"))
+        {
+            ViewData["ClaimsSource"] = "AuthZ Provider / Policy Service";
+        }
+
+    <h3>Claims from: @ViewData["ClaimsSource"]</h3>
+    <dl>
+        @foreach (var claim in id.Claims)
+        {
+            <dt>@claim.Type</dt>
+            <dd>@claim.Value</dd>
+        }
+    </dl>
+}
+
+<hr />
+
+@if (Model != null)
+{
+    <h1>== Policy Results ==</h1>
+    @if (Model.Roles.Any())
+    {
+        <h2>+ Application specific Roles +</h2>
+        <ul>
+            @foreach (var role in Model.Roles)
+            {
+                <li>@role</li>
+            }
+        </ul>
+    }
+
+    @if (Model.Permissions.Any())
+    {
+        <h2>+ Permissions (application specific) per rol +</h2>
+        <ul>
+            @foreach (var perm in Model.Permissions)
+            {
+                <li>@perm</li>
+            }
+        </ul>
+    }
+}
+
+<hr />
+
+<h1>== All Permissions list for the DVal Application ==</h1>
+
+<ul>
+    <li>
+        <p>
+            <a asp-action="Staff">Staff permissions (View Team Orders and Export to PDF)</a>
+        </p>
+    </li>
+    <li>
+        <p>
+            <a asp-action="DeleteOrders">Delete Team Orders</a>
+        </p>
+    </li>
+    <li>
+        <p>
+            <a asp-action="CanDeleteMyOwnOrders">Delete My own Order</a>
+        </p>
+    </li>
+    <li>
+        <p>
+            <a asp-action="CanViewMyOwnOrders">View My own Orders</a>
+        </p>
+    </li>
+    <li>
+        <p>
+            <a asp-action="CanExportOrderToPDF">Export Order To PDF</a>
+        </p>
+    </li>
+</ul>
+@*<p>
+    <a asp-action="PrescribeMedication" asp-route-name="aspirin" asp-route-amount="20">Prescribe 20mg aspirin</a>
+</p>*@
+@*<p>
+    <a asp-action="PrescribeMedication" asp-route-name="placebo" asp-route-amount="50">Prescribe 50mg placebo</a>
+</p>*@
