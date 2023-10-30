@@ -1,0 +1,48 @@
+{
+    '96138102-9121-49d2-9536-24ab00cd1927-b2c_1a_signup_signin.a4e66f9e-3e82-4983-9279-2a19401c2646-iamvresdnadev001.b2clogin.com-refreshtoken-3e68a722-16f7-4582-90d1-514a16fa6919----': '{
+        "clientId": "3e68a722-16f7-4582-90d1-514a16fa6919",
+        "credentialType": "RefreshToken",
+        "environment": "iamvresdnadev001.b2clogin.com",
+        "homeAccountId": "96138102-9121-49d2-9536-24ab00cd1927-b2c_1a_signup_signin.a4e66f9e-3e82-4983-9279-2a19401c2646",
+        "secret": "eyJraWQiOiJHNE9TRzJMV3hBV1p2OWhfaDJfZW9SV1JJZ3ctcEpFWEoxR0lSNGNzcm5jIiwidmVyIjoiMS4wIiwiemlwIjoiRGVmbGF0ZSIsInNlciI6IjEuMCJ9.yMu4CsaY62zU-fsslD87LwfYv6LYdjAIHZrElX5R_FFwh42aM4swBRCQCkmiNdbDimMHqX4mqWTso-vymDGUH_xKYPAnyJDwePTPfgz_6R9jVq3TS2XJ99mD6m0JlVDZc3DWaRFBCr71et8F5Q1yofBZCN2RM2U84k-iEx71OMcYSYppe5Fel5Zul-ICaZhSdeAVMVas6yQN70trOTImvCpQpsVLMfRlEW_OXlUeC7r1CL1BLlpdfvKhKYw4Yl8EfKm2akQgo6zcF15NbKlYFCxUeMwPQ5E7CBfB8RF3leF-ccaH1hF4i9G7yg2XM5mFU8P7RKDs9ndcDmPUO7zSNQ.DJR47DtVLRhu0jQq.qJR_G-XVk1tiuIF9XgupStxxoyPOZiMCa-_jjmsJfp3NLJfaplrZYPg3qslZepgbWXpcfIZJE2UR8Y-vmAFAjMVipZ9OYf2CMJ7ualHvEYtVOVrhvpw8C2X0O4uEBiAy2XMZjWK2DyqOYQSrYvKybO50HyP-1LsrwmOxrFB_Pt5CELtktSSF3Fi93MO3n35gZNwi4nGK1p0SAx1pKbemyUB3Vpa_CT6LDWx3aiVD7MXAWotcr5cJkkP1Y-6qsXI6ODlRYAgHjmnGrVml9_1TWaJjL3IIUQK7m1U8L5V-ygFB5U5Hdc6SDPdMEAzDK6ZT1q5FWxiYmxHzQjy2RVO85ZVkXIKAceihmwRun_aRBZoNlcZmQGecUDRq_B8BrlUObyNpVyp1drNBpMFKNLAZIjMfDbohny9nDxfyu-sVgr048qcU7gkqAJKsz__kXvK_jdrJyKl3h2NfNZJZtbW7uyAhO0hNbCdqq52jiQwd9-5MihQjHnJ3XzThEWKNqRFo7SetJYkRnCCRsAVn84wckHbSD5oJIwjzdsrLGDnSTyLtUwB3MkEbU5Wz8f14btv8lJ7eyQ5Hau_WFKplgXNKGzBwCJkWzdfrSrk1HtzkRI0z7QYYoMYNxUiPadErMk1Cpa3iYyLbq3XLHkdo8wF0VEhX3PPAzzUl0DEC-oVlxAv3c2imbVlpjDtc2IM4oXL49iM3KRrTX1Wb5atQy6wc0ge0GwBecR2ZwftkcI1QJvYaBS4AsUEujCHWXkgU8Urcdm3aVw5m2BLNh5Yf.9030mT0xOEWfcURwaoKqIg"
+    }',
+    '96138102-9121-49d2-9536-24ab00cd1927-b2c_1a_signup_signin.a4e66f9e-3e82-4983-9279-2a19401c2646-iamvresdnadev001.b2clogin.com-a4e66f9e-3e82-4983-9279-2a19401c2646': '{
+        "authorityType": "MSSTS",
+        "clientInfo": "eyJ1aWQiOiI5NjEzODEwMi05MTIxLTQ5ZDItOTUzNi0yNGFiMDBjZDE5MjctYjJjXzFhX3NpZ251cF9zaWduaW4iLCJ1dGlkIjoiYTRlNjZmOWUtM2U4Mi00OTgzLTkyNzktMmExOTQwMWMyNjQ2In0",
+        "homeAccountId": "96138102-9121-49d2-9536-24ab00cd1927-b2c_1a_signup_signin.a4e66f9e-3e82-4983-9279-2a19401c2646",
+        "environment": "iamvresdnadev001.b2clogin.com",
+        "realm": "a4e66f9e-3e82-4983-9279-2a19401c2646",
+        "idTokenClaims": {
+            "ver": "1.0",
+            "iss": "https://iamvresdnadev001.b2clogin.com/a4e66f9e-3e82-4983-9279-2a19401c2646/v2.0/",
+            "sub": "96138102-9121-49d2-9536-24ab00cd1927",
+            "aud": "3e68a722-16f7-4582-90d1-514a16fa6919",
+            "exp": 1698531161,
+            "nonce": "11b05f8b-73c2-49d7-8fd3-d20bdf997283",
+            "iat": 1698530261,
+            "auth_time": 1698530260,
+            "roles": "USER",
+            "app_tenantid": "2",
+            "Permissions": "\\u0001",
+            "name": "Abe Barberenagil",
+            "given_name": "Abe",
+            "family_name": "Barberenagil",
+            "tid": "a4e66f9e-3e82-4983-9279-2a19401c2646",
+            "isForgotPassword": false,
+            "nbf": 1698530261
+        },
+        "localAccountId": "96138102-9121-49d2-9536-24ab00cd1927",
+        "username": "",
+        "name": "Abe Barberenagil",
+        "cloudGraphHostName": "",
+        "msGraphHost": ""
+    }',
+    '96138102-9121-49d2-9536-24ab00cd1927-b2c_1a_signup_signin.a4e66f9e-3e82-4983-9279-2a19401c2646-iamvresdnadev001.b2clogin.com-idtoken-3e68a722-16f7-4582-90d1-514a16fa6919-a4e66f9e-3e82-4983-9279-2a19401c2646---': '{
+        "credentialType": "IdToken",
+        "homeAccountId": "96138102-9121-49d2-9536-24ab00cd1927-b2c_1a_signup_signin.a4e66f9e-3e82-4983-9279-2a19401c2646",
+        "environment": "iamvresdnadev001.b2clogin.com",
+        "clientId": "3e68a722-16f7-4582-90d1-514a16fa6919",
+        "secret": "eyJhbGciOiJSUzI1NiIsImtpZCI6IlBpSDdhaGRRRlRnOHJlR3FMeGE2VjJVZ25Za2lOajRBTVhpMk1hV3N1ZXMiLCJ0eXAiOiJKV1QifQ.eyJ2ZXIiOiIxLjAiLCJpc3MiOiJodHRwczovL2lhbXZyZXNkbmFkZXYwMDEuYjJjbG9naW4uY29tL2E0ZTY2ZjllLTNlODItNDk4My05Mjc5LTJhMTk0MDFjMjY0Ni92Mi4wLyIsInN1YiI6Ijk2MTM4MTAyLTkxMjEtNDlkMi05NTM2LTI0YWIwMGNkMTkyNyIsImF1ZCI6IjNlNjhhNzIyLTE2ZjctNDU4Mi05MGQxLTUxNGExNmZhNjkxOSIsImV4cCI6MTY5ODUzMTE2MSwibm9uY2UiOiIxMWIwNWY4Yi03M2MyLTQ5ZDctOGZkMy1kMjBiZGY5OTcyODMiLCJpYXQiOjE2OTg1MzAyNjEsImF1dGhfdGltZSI6MTY5ODUzMDI2MCwicm9sZXMiOiJVU0VSIiwiYXBwX3RlbmFudGlkIjoiMiIsIlBlcm1pc3Npb25zIjoiXHUwMDAxIiwibmFtZSI6IkFiZSBCYXJiZXJlbmFnaWwiLCJnaXZlbl9uYW1lIjoiQWJlIiwiZmFtaWx5X25hbWUiOiJCYXJiZXJlbmFnaWwiLCJ0aWQiOiJhNGU2NmY5ZS0zZTgyLTQ5ODMtOTI3OS0yYTE5NDAxYzI2NDYiLCJpc0ZvcmdvdFBhc3N3b3JkIjpmYWxzZSwibmJmIjoxNjk4NTMwMjYxfQ.j4QkXJstTZN1g1P1Z9W4c9djiFypWtVpPD7cuiL8F6cHymuvTMWveXtUWwmVZCKqCOwDcXncjc6gxQXb43mc2TOSDD0DYxjbZZ19-KhIWQixk4wSxsKF2NdmaGM94531uYjMV89jKXK_03Icyk6kY19FTXsTGgNaZ9Vi1IRtTf9Hc7AyQK8r24jU-Hzb63V8g4IzfBHixr0NKvHW_OwVvtrWQa33C-qIL0CbqGkZtqXCRoXUTBr8i5rwfefGLo4pA_LMErYuZFnjjCJz5nTRRP_8XXH-_qZPmyQYEJyBMXZmp_JLNqXJfoKMNMP2xFrZwE3TleMgXFla9ZSsEdwVZQ",
+        "realm": "a4e66f9e-3e82-4983-9279-2a19401c2646"
+    }'
+}

