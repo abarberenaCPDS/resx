@@ -44,7 +44,7 @@ class Program
 
         Console.Write($"\nIs Valid? --> ");
         Console.ForegroundColor = valid ? ConsoleColor.Green : ConsoleColor.Red;
-        Console.Write($"{valid.ToString().ToUpper()}");
+        Console.Write($"{valid.ToString().ToUpper()}"); Console.ResetColor();
 
         // tampered payload
         content = @"sample-tampered.json";
@@ -54,8 +54,9 @@ class Program
 
         Console.Write($"\nIs Valid? --> ");
         Console.ForegroundColor = valid ? ConsoleColor.Green : ConsoleColor.Red;
-        Console.Write($"{valid.ToString().ToUpper()}");
-        Console.WriteLine("\n");
+        Console.Write($"{valid.ToString().ToUpper()}"); Console.ResetColor();
+
+        Console.WriteLine("\n\n=== Program completed ===\n");
     }
 
     private static ECDsa LoadPrivateKey(string content, string pwd)
