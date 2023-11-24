@@ -7,9 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetEcdsaSignButVerify", "Ne
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcdsaSignButVerify", "Dotnet\EcdsaSignButVerify.csproj", "{C6DEA889-1D5F-4C0C-84B8-A4AD2361A591}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veros.Crypto.Ecdsa.SignButVerify", "Veros.Crypto.Ecdsa.SignButVerify\Veros.Crypto.Ecdsa.SignButVerify.csproj", "{638D8E15-69A8-4BFE-BD37-99CB5C38B299}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcdsaKeysContainer", "EcdsaKeysContainer\EcdsaKeysContainer.csproj", "{46235754-3C80-4B00-809E-8C49216C9A90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veros.Crypto.Ecdsa.SignAndVerify", "Veros.Crypto.Ecdsa.SignAndVerify\Veros.Crypto.Ecdsa.SignAndVerify.csproj", "{E01454B7-62A7-4995-8100-C08BCB529CFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +23,10 @@ Global
 		{C6DEA889-1D5F-4C0C-84B8-A4AD2361A591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6DEA889-1D5F-4C0C-84B8-A4AD2361A591}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6DEA889-1D5F-4C0C-84B8-A4AD2361A591}.Release|Any CPU.Build.0 = Release|Any CPU
-		{638D8E15-69A8-4BFE-BD37-99CB5C38B299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{638D8E15-69A8-4BFE-BD37-99CB5C38B299}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{638D8E15-69A8-4BFE-BD37-99CB5C38B299}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{638D8E15-69A8-4BFE-BD37-99CB5C38B299}.Release|Any CPU.Build.0 = Release|Any CPU
-		{46235754-3C80-4B00-809E-8C49216C9A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46235754-3C80-4B00-809E-8C49216C9A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46235754-3C80-4B00-809E-8C49216C9A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46235754-3C80-4B00-809E-8C49216C9A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E01454B7-62A7-4995-8100-C08BCB529CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E01454B7-62A7-4995-8100-C08BCB529CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E01454B7-62A7-4995-8100-C08BCB529CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E01454B7-62A7-4995-8100-C08BCB529CFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
