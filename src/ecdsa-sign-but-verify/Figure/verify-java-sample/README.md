@@ -1,0 +1,64 @@
+# Public Key Verification using Java
+
+
+## Instructions to Verify
+
+This program can be used to verify digital signatures from production.  The program takes two arguments:
+
+- An input file with the JSON response to validate
+- Ahe `x-clearcapital-signature` response header value
+
+The program will then read the file and the production public key (the `public.pem` file in this directory) and validate the signature value. A response of `true` means the signature is valid.
+
+Two same production input files are also included here; you can use them to validate the signatures below:
+
+```bash
+$ java verify input_clearprop.json
+
+MEUCIFCHc7ipel34M2bVxt/OhHTrPPvl1sYKrBc0ylwpV2NAAiEA0caNs9DjhgO7sI4/6NmxD4n39t8zgfElQ8LM1ciF+pY=
+
+$ java verify input_avm.json
+
+MEQCIE1zYJVW6PgCEyE6tlUtoH9k7BvsSIch/dwyS4HUhkVLAiBhK/Be0O2Rs1hdwylOWqv0I50sZ0l1O66pWqfHtR8aKw==
+```
+
+## References
+
+### ECDSA public and private
+
+Here's an example of self-issued keys:
+
+#### Private Key
+
+```sh
+Private-Key: (256 bit)
+priv:
+    f0:69:5b:54:ed:b6:8f:67:f5:fe:88:72:ec:23:0e:
+    7b:46:f5:59:85:8b:dd:08:61:ef:14:3d:86:07:27:
+    3b:1f
+pub:
+    04:bd:c1:8f:b6:ed:84:9c:f3:16:83:0a:d0:43:21:
+    56:96:38:a4:a6:c3:8c:70:6d:fa:b2:80:f6:90:48:
+    d2:bb:73:2a:68:ce:dd:e0:9f:77:f5:6a:0b:74:41:
+    dd:05:91:f1:30:9b:ba:61:e6:97:d2:30:f5:0d:a2:
+    ac:fe:d1:38:18
+ASN1 OID: prime256v1
+NIST CURVE: P-256
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIPBpW1Ttto9n9f6IcuwjDntG9VmFi90IYe8UPYYHJzsfoAoGCCqGSM49
+AwEHoUQDQgAEvcGPtu2EnPMWgwrQQyFWljikpsOMcG36soD2kEjSu3MqaM7d4J93
+9WoLdEHdBZHxMJu6YeaX0jD1DaKs/tE4GA==
+-----END EC PRIVATE KEY-----
+
+```
+
+#### Public Key
+
+```sh
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEvcGPtu2EnPMWgwrQQyFWljikpsOM
+cG36soD2kEjSu3MqaM7d4J939WoLdEHdBZHxMJu6YeaX0jD1DaKs/tE4GA==
+-----END PUBLIC KEY-----
+```
+
+
