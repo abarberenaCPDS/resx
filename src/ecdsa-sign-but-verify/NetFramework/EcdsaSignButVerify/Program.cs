@@ -54,10 +54,11 @@ namespace NetEcdsaSignButVerify
 
             /// Sign data....
             Console.WriteLine($"Private key file:\t\t{privateKeyFile}");
-            CngKey privateKey = signButVerify.LoadPrivateKey(privateKeyFile, pwd);
-            Console.WriteLine($"OK: Private Key loaded:\t\t{privateKey.Algorithm} ready.");
+            //CngKey privateKey = signButVerify.LoadPrivateKey(privateKeyFile, pwd);
+            //Console.WriteLine($"OK: Private Key loaded:\t\t{privateKey.Algorithm} ready.");
 
-            signedRaw = signButVerify.Sign(privateKey, contentRaw);
+            //signedRaw = signButVerify.Sign(privateKey, contentRaw);
+            signedRaw = signButVerify.Sign(contentRaw, contentRaw);
             signedStr = Convert.ToBase64String(signedRaw);
             Console.WriteLine($"Signature:\t\t\t{signedStr}");
             Console.ReadLine();

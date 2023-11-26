@@ -1,7 +1,13 @@
-﻿using System.Diagnostics;
+﻿using Org.BouncyCastle.Asn1.Pkcs;
+using Org.BouncyCastle.Crypto.Parameters;
+using Org.BouncyCastle.Crypto;
+using Org.BouncyCastle.Security;
+using System;
+using System.Diagnostics;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
+using Org.BouncyCastle.OpenSsl;
 
 namespace Veros.Crypto.Ecdsa.SignAndVerify
 {
@@ -63,7 +69,27 @@ namespace Veros.Crypto.Ecdsa.SignAndVerify
 
         public byte[] Sign(byte[] privateKey, byte[] data)
         {
-            throw new System.NotImplementedException();
+            byte[] signedRaw;
+            string signedStr;
+
+            var privateKeyString = File.ReadAllText(@"prv.pem");
+            using (var textReader = new StringReader(privateKeyString))
+            {
+                // Only a private key
+                var p = new PemReader(textReader).ReadPemObject();
+                PrivateKeyInfo privateKeyInfo = PrivateKeyInfo.GetInstance(p.Content);
+                ECPrivateKeyParameters privateKey1 = (ECPrivateKeyParameters)PrivateKeyFactory.CreateKey(privateKeyInfo);
+
+                ISigner signer = SignerUtilities.GetSigner("SHA256withECDSA");
+                signer.Init(true, privateKey1);
+                signer.BlockUpdate(data,0, data.Length);
+                signedRaw = signer.GenerateSignature();
+                signedStr = Convert.ToBase64String(signedRaw);
+
+                //pubRaw = privateKeyInfo.PublicKeyData.GetBytes();
+                //pubStr = Convert.ToBase64String(pubRaw);
+            }
+            return signedRaw;
         }
     }
 }
