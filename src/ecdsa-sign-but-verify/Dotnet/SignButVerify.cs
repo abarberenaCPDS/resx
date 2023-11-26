@@ -51,5 +51,30 @@ namespace EcdsaSignButVerify
             Debug.Assert(result != null);
             return result;
         }
+
+        public byte[] LoadPrivateKeyFile(string keyFile, string pwd)
+        {
+            byte[] result;
+            //byte[] privateKeyRaw = File.ReadAllBytes(keyFile);
+            var privateKeyRaw = File.ReadAllText(keyFile);
+            using (ECDsa eCDsa = ECDsa.Create())
+            {
+                //eCDsa.ImportECPrivateKey(privateKeyRaw, out _);
+                eCDsa.ImportFromPem(privateKeyRaw);
+                result = eCDsa.ExportECPrivateKey();
+            }
+            return result;
+        }
+
+        public byte[] Sign(byte[] privateKeyRaw, byte[] data)
+        {
+            byte[] result;
+            using (ECDsa eCDsa = ECDsa.Create())
+            {
+                eCDsa.ImportECPrivateKey(privateKeyRaw, out _);
+                result = eCDsa.SignData(data, HashAlgorithmName.SHA256, DSASignatureFormat.Rfc3279DerSequence);
+            }
+            return result;
+        }
     }
 }

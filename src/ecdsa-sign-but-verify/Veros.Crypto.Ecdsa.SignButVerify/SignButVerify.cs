@@ -55,5 +55,15 @@ namespace Veros.Crypto.Ecdsa.SignAndVerify
             Debug.Assert(result != null);
             return result;
         }
+
+        public byte[] LoadPrivateKeyFile(string keyFile, string pwd)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public byte[] Sign(byte[] privateKey, byte[] data)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

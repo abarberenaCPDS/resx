@@ -72,7 +72,8 @@ class Program
         byte[] contentRaw = File.ReadAllBytes(content);
         Console.WriteLine($"Content:\t\t{content}");
 
-        string privateKeyFile = @"prv8.der";
+        //string privateKeyFile = @"prv8.der";
+        string privateKeyFile = @"prv.pem";
         string pwd =
             "P@ssw0rd"
         ;
@@ -81,8 +82,11 @@ class Program
 
         /// Sign data....
         Console.WriteLine($"Private key file:\t{privateKeyFile}");
-        CngKey privateKey = signButVerify.LoadPrivateKey(privateKeyFile, pwd);
-        Console.WriteLine($"Private Key loaded:\t{privateKey.Algorithm} ready.");
+        //CngKey privateKey = signButVerify.LoadPrivateKey(privateKeyFile, pwd);
+        //Console.WriteLine($"Private Key loaded:\t{privateKey.Algorithm} ready.");
+
+        byte[] privateKey = signButVerify.LoadPrivateKeyFile(privateKeyFile, pwd);
+        Console.WriteLine($"Private Key loaded:\tready.");
 
         byte[] signatureRaw = signButVerify.Sign(privateKey, contentRaw);
         string signatureStr = Convert.ToBase64String(signatureRaw);
@@ -92,7 +96,7 @@ class Program
         Console.ResetColor();
 
         bool valid;
-        string pubKeyFile = @"pub8.pem";
+        string pubKeyFile = @"pub8.der";
         byte[] publicKeyRaw = File.ReadAllBytes(pubKeyFile);
         string publicKeyStr = Convert.ToBase64String(publicKeyRaw);
         Console.WriteLine($"Public Key:\t\t{publicKeyStr}");
