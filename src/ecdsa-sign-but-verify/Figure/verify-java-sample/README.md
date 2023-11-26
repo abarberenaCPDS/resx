@@ -1,7 +1,35 @@
 # Public Key Verification using Java
 
+## Docker Setup
 
-## Instructions to Verify
+```sh
+# docker
+docker container run --rm -it --name abes-alpine-java -v $(pwd):/root abes-alpine-java sh
+```
+
+### Runnnig the Java client
+
+```sh
+cd ~
+sig='MEYCIQD5vBVFMUwXKdpeXaEGcCBrYYooT4P/Rmoaz7nKl+2ovgIhAK4/kFWfc1U0dkTzD4
+IQxbSqs72s3Rufr+6fmctxfkRR'
+
+# run the program
+javac verify.java && java verify sample.json $sig
+
+# output
+=== Running ===
+--> Input       sample.json
+--> Signature   MEYCIQD5vBVFMUwXKdpeXaEGcCBrYYooT4P/Rmoaz7nKl+2ovgIhAK4/kFWfc1U0dkTzD4IQxbSqs72s3Rufr+6fmctxfkRR
+--> Public Key  MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0oHiOSsT2BLTHzEolqkc565lVJVac5x/MdM7raVL4J9Pmf2XEQFn5qRTqLpt32I8mpBMHXNC/Q4xlDJ32UqOkw==
+--> PubKey File pub8.pem
+--> Ecdsa ready Signature object: SHA256withECDSA<initialized for verifying>
+--> Ecdsa updated...
+--> Ecdsa verified...true
+```
+
+
+## Instructions to Verify from Figure
 
 This program can be used to verify digital signatures from production.  The program takes two arguments:
 
@@ -23,6 +51,10 @@ MEQCIE1zYJVW6PgCEyE6tlUtoH9k7BvsSIch/dwyS4HUhkVLAiBhK/Be0O2Rs1hdwylOWqv0I50sZ0l1
 ```
 
 ## References
+
+- [ECDSA using java.security.Signature](http://fog.misty.com/perry/ccs/EC/all-EC.html)
+- [How to Read PEM File to Get Public and Private Keys](https://www.baeldung.com/java-read-pem-file-keys)
+- [Encode Base64 cannot find symbol error](https://stackoverflow.com/questions/39711122/encode-base64-cannot-find-symbol-error)
 
 ### ECDSA public and private
 

@@ -26,7 +26,7 @@ public static PublicKey readPublicKey(File file) throws Exception {
       .replace("-----BEGIN PUBLIC KEY-----", "")
       .replaceAll(System.lineSeparator(), "")
       .replace("-----END PUBLIC KEY-----", "");
-    System.out.println(publicKeyPEM);
+    System.out.println("--> Public Key\t" + publicKeyPEM);
     byte[] encoded = Base64.getDecoder().decode(publicKeyPEM);
 
     KeyFactory keyFactory = KeyFactory.getInstance("EC");
@@ -34,21 +34,35 @@ public static PublicKey readPublicKey(File file) throws Exception {
     return (PublicKey) keyFactory.generatePublic(keySpec);
 }    
     
-  public static void main(String[] args) throws Exception {
-  // Check how many arguments were passed in
-  if (args.length < 2) {
-    System.out.println("Usage: java verify {input-filepath} {x-clearcapital-signature}");
-    System.exit(0);
-  }
+  public static void main(String[] args) throws Exception
+  {
+    // Check how many arguments were passed in
+    if (args.length < 2) {
+      System.out.println("Usage: java verify {input-filepath} {x-clearcapital-signature}");
+      System.exit(0);
+    }
 
-      
-     final byte[] input = Files.readAllBytes(Paths.get(args[0]));
-     byte[] signature = Base64.getDecoder().decode(args[1].getBytes());
-     Signature ecdsaVerify = Signature.getInstance("SHA256withECDSA");
-     	 
-     ecdsaVerify.initVerify(readPublicKey(new File("public.pem")));
-     ecdsaVerify.update(input);
-     boolean result = ecdsaVerify.verify(signature);
-     System.out.println("verify signature: " + result);
+    String pubKeyFile = "pub8.pem";
+
+    System.out.println("\n=== Running ===");
+    final byte[] input = Files.readAllBytes(Paths.get(args[0]));
+    System.out.println("--> Input\t"+ args[0]);
+
+    byte[] signature = Base64.getDecoder().decode(args[1].getBytes());
+    // byte[] signature = args[1].getBytes("UTF-8");
+    System.out.println("--> Signature\t"+ args[1]);
+  
+    Signature ecdsaVerify = Signature.getInstance("SHA256withECDSA");
+    ecdsaVerify.initVerify(readPublicKey(new File(pubKeyFile)));
+    System.out.println("--> PubKey File\t" + pubKeyFile);
+
+
+    System.out.println("--> Ecdsa ready\t" + ecdsaVerify);
+    ecdsaVerify.update(input);
+    System.out.println("--> Ecdsa updated...");
+    boolean result = ecdsaVerify.verify(signature);
+    System.out.println("--> Ecdsa verified..." + result);
+    
+    System.out.println("\n");
   }
 }
