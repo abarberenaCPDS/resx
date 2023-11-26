@@ -1,6 +1,4 @@
-﻿using System;
-using System.Diagnostics;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
 using Veros.Crypto.Ecdsa.SignAndVerify;
 
@@ -23,10 +21,7 @@ class Program
         // these are previously generated signatures
         // which are valid with the public key
         string signature =
-            "miyXZ6sf+IF2mdvMhOTE4A/WzMyTW4AQbk9FOOEobpryh9UY1VuqapA2sGn0Jov5cLMv66DksO+gH/RJQP2f6A=="
-            //"VL59mMVloXhU7yA7jkE0/lk2SUonpuzT/3/tzoyDP1yPVNagUe43tyktZLqG/i3crIidcZF6h6nVSJF7u2V/DQ=="
-            //"qrLFXYLveaOtvL2K28lVrcOfwj6Kvmixykb6ZcJh4WNUDRiObyWZVC7c2rOLZRQyqBQC9P4k4/cgibTkbJhUIQ=="
-            //"NXJUpIQAxKjAVSt0YzoCFG8zgY2TZCRxs2dwacIWhIvRBBUgq44Ez0uj10uXbYfOQTIubzAy/hxJJn1kNbHr6Q=="
+            "MEYCIQD5vBVFMUwXKdpeXaEGcCBrYYooT4P/Rmoaz7nKl+2ovgIhAK4/kFWfc1U0dkTzD4IQxbSqs72s3Rufr+6fmctxfkRR"
             ;
 
         // This method just verifies the digital signing with the Public Key
@@ -39,7 +34,7 @@ class Program
     private static void Test_VerifySign(string content, string signature)
     {
         Console.WriteLine("\n\n=== ECDSA - Just Verify Signature ===\n");
-        //Console.WriteLine($"Signature:\t\t{signature}");
+
         Console.Write($"Signature:");
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.Write($"\t\t{signature}\n");
@@ -48,7 +43,7 @@ class Program
         byte[] contentRaw = File.ReadAllBytes(content);
 
         bool valid;
-        string publicKeyFile = @"pub8.der";
+        string publicKeyFile = @"pub8.der"; // Windows 
         byte[] publicKeyRaw = File.ReadAllBytes(publicKeyFile);
         string publicKeyStr = Convert.ToBase64String(publicKeyRaw);
         Console.WriteLine($"Public Key:\t\t{publicKeyStr}");
@@ -82,7 +77,7 @@ class Program
             "P@ssw0rd"
         ;
 
-        ISign signButVerify = new SignButVerify();
+        ISign signButVerify = new EcdsaSignButVerify.SignButVerify();
 
         /// Sign data....
         Console.WriteLine($"Private key file:\t{privateKeyFile}");
@@ -97,13 +92,19 @@ class Program
         Console.ResetColor();
 
         bool valid;
-        string pubKeyFile = @"pub8.der";
+        string pubKeyFile = @"pub8.pem";
         byte[] publicKeyRaw = File.ReadAllBytes(pubKeyFile);
         string publicKeyStr = Convert.ToBase64String(publicKeyRaw);
         Console.WriteLine($"Public Key:\t\t{publicKeyStr}");
 
         // verify signature
         // Public Key loading using ECDSA, not ECDSACng
+
+        // TODO: Refactor the public key to byte array...
+        //IVerify justVerify = new EcdsaSignButVerify.SignButVerify();
+        //CngKey pubKey = justVerify.LoadPublicKey(pubKeyFile);
+        //justVerify.Verify(contentRaw, signatureRaw, null);
+
         valid = Verify(contentRaw, signatureRaw, publicKeyRaw);
 
         Console.Write($"\nIs Signature valid?\t\t");
@@ -125,55 +126,11 @@ class Program
     {
         bool result;
 
-        ECDsa eCDsa = LoadPublicKey(pubKey);
-        result = eCDsa.VerifyData(msg, signature, HashAlgorithmName.SHA256);
+        using (ECDsa eCDsa = ECDsa.Create())
+        {
+            eCDsa.ImportSubjectPublicKeyInfo(pubKey, out _);
+            result = eCDsa.VerifyData(msg, signature, HashAlgorithmName.SHA256, DSASignatureFormat.Rfc3279DerSequence);
+        }
         return result;
     }
-
-    private static ECDsa LoadPublicKey(byte[] pubKey)
-    {
-        ECDsa eCDsa = ECDsa.Create();
-        eCDsa.ImportSubjectPublicKeyInfo(pubKey, out _);
-        return eCDsa;
-    }
-
-
-
-
-    private static ECDsa LoadPrivateKey(string content, string pwd)
-    {
-        var priv = File.ReadAllBytes(content);
-        byte[] pwdBytes = Encoding.UTF8.GetBytes(pwd);
-
-        ECDsa eCDsa = ECDsa.Create();
-        eCDsa.ImportPkcs8PrivateKey(priv, out _);
-        //eCDsa.ImportEncryptedPkcs8PrivateKey(pwdBytes, priv, out _);
-
-        Console.WriteLine($"OK: Private Key loaded...: {eCDsa.SignatureAlgorithm} ready.");
-        return eCDsa;
-    }
-
-    private static byte[] Hash(byte[] msg)
-    {
-        ECDsa eCDsa = ECDsa.Create();
-        byte[] hash = eCDsa.SignHash(msg);
-        Console.WriteLine($"Hash Value: {Convert.ToBase64String(hash)}");
-        return hash;
-    }
-
-    private static byte[] Sign(byte[] msg, ECDsa eCDsa)
-    {
-        byte[] result = eCDsa.SignData(msg, HashAlgorithmName.SHA256);
-        return result;
-    }
-
-    private static bool VerifyHash(byte[] msg, byte[] signature, byte[] pubKey)
-    {
-        bool result;
-
-        ECDsa eCDsa = LoadPublicKey(pubKey);
-        result = eCDsa.VerifyHash(msg, signature);
-        return result;
-    }
-
 }
