@@ -42,7 +42,7 @@ public static PublicKey readPublicKey(File file) throws Exception {
       System.exit(0);
     }
 
-    String pubKeyFile = "pub8.pem";
+    String pubKeyFile = "pub.pem";
 
     System.out.println("\n=== Running ===");
     final byte[] input = Files.readAllBytes(Paths.get(args[0]));

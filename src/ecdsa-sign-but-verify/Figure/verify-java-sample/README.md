@@ -1,22 +1,39 @@
 # Public Key Verification using Java
 
+![project.svg](project.svg)
+
 ## Docker Setup
 
+- [Alpine Java image](https://blog.developer.atlassian.com/minimal-java-docker-containers/)
+
+
 ```sh
-# docker
+# Image build:
+docker build -t abes-alpine-java .
+```
+
+```sh
+# Container execution
 docker container run --rm -it --name abes-alpine-java -v $(pwd):/root abes-alpine-java sh
 ```
 
-### Runnnig the Java client
+## Runnnig the Java client
 
 ```sh
+# change to source directory 
 cd ~
+
+# set signature
 sig='MEYCIQD5vBVFMUwXKdpeXaEGcCBrYYooT4P/Rmoaz7nKl+2ovgIhAK4/kFWfc1U0dkTzD4
 IQxbSqs72s3Rufr+6fmctxfkRR'
 
 # run the program
 javac verify.java && java verify sample.json $sig
+```
 
+#### Output Example:
+
+```sh
 # output
 === Running ===
 --> Input       sample.json
@@ -50,11 +67,27 @@ $ java verify input_avm.json
 MEQCIE1zYJVW6PgCEyE6tlUtoH9k7BvsSIch/dwyS4HUhkVLAiBhK/Be0O2Rs1hdwylOWqv0I50sZ0l1O66pWqfHtR8aKw==
 ```
 
-## References
+## ECDSA References
 
 - [ECDSA using java.security.Signature](http://fog.misty.com/perry/ccs/EC/all-EC.html)
 - [How to Read PEM File to Get Public and Private Keys](https://www.baeldung.com/java-read-pem-file-keys)
 - [Encode Base64 cannot find symbol error](https://stackoverflow.com/questions/39711122/encode-base64-cannot-find-symbol-error)
+
+## Java References
+
+- [Input and Convert the Encoded Public Key Bytes](https://docs.oracle.com/javase/tutorial/security/apisign/vstep2.html)
+- [Class X509EncodedKeySpec](https://docs.oracle.com/javase/8/docs/api/java/security/spec/X509EncodedKeySpec.html)
+- [Verifying a Digital Signature](https://docs.oracle.com/javase/tutorial/security/apisign/versig.html)
+- [Class Signature](https://docs.oracle.com/javase/8/docs/api/java/security/Signature.html#verify-byte:A-)
+- [Interface ECPublicKey](https://docs.oracle.com/javase/7/docs/api/java/security/interfaces/ECPublicKey.html)
+
+## Bouncy Castle References
+
+- [How to Read PEM File to Get Public and Private Keys - Good Read](https://www.baeldung.com/java-read-pem-file-keys)
+
+## 
+
+
 
 ### ECDSA public and private
 
