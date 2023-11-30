@@ -3,7 +3,9 @@ import base64
 import hashlib
 from ecdsa import SigningKey,VerifyingKey, NIST256p
 
-with open('sample.json','rb') as  data:
+jsonFile = 'jcan.json'
+
+with open(jsonFile,'rb') as  data:
     dataRaw = data.read()
 
 with open('prv.pem') as priKey:
