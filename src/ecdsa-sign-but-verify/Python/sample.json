@@ -1,0 +1,38 @@
+{
+    "avmId": null,
+    "avmPdfLink": null,
+    "avmResult": {
+        "avmEffectiveDate": "2023-01-19",
+        "comparables": null,
+        "confidenceScore": "H",
+        "confidenceScoreAlt": "90.80608",
+        "forecastStdDev": 0.091939166,
+        "highValue": 1073366,
+        "lowValue": 892616,
+        "marketValue": 982991,
+        "providerKey": "CC",
+        "providerModel": "CLEARAVM",
+        "providerName": "CLEAR_CAPITAL",
+        "subject": null
+    },
+    "avmType": "Value Only",
+    "endpoint": "avm",
+    "property": {
+        "apn": "125711025000",
+        "censusBlockGroup": "060170307092",
+        "customerProvidedAddress": "2414 Allendale Pl; El Dorado Hills, CA 95762",
+        "fips": "06017",
+        "geoAccuracyCode": "PARCEL",
+        "latitude": 38.702859,
+        "longitude": -121.075084,
+        "pid": "252806357",
+        "responseId": "10194429086",
+        "responseTimestamp": "2023-01-23T17:00:02.223829Z",
+        "standardizedCity": "El Dorado Hills",
+        "standardizedFullAddress": "2414 Allendale Pl",
+        "standardizedState": "CA",
+        "standardizedZip": "95762",
+        "trackingIds": []
+    },
+    "termsOfUse": "This analysis has not been performed in accordance with the Uniform Standards of Professional Appraisal Practice which requires valuers to act as unbiased, disinterested third parties with impartiality, objectivity and independence and without accommodation of personal interest. It is not to be construed as an appraisal and may not be used as such for any purpose. Use of this report is subject to the terms of use agreed to by the user and any contracts in place between ClearCapital.com, Inc. (\"Clear Capital\") and the user. Although the information in this report has been derived from sources that are deemed to be reliable, the information may be inaccurate or incomplete, and electronic versions of this report may contain additional information not included herein. Further, this report has been generated on an automated basis from available data and did not include a physical inspection of the applicable property or neighborhood. Therefore, no guarantees or warranties are made as to the accuracy of this report, the characteristics, condition or existence of the property, or any other information included in the report. This report is not an appraisal or broker price opinion and should not be relied on as such. In the event that this report is found to be defective, incorrect, negligently prepared or unfit for its authorized use, Clear Capitals sole liability shall be to promptly refund the total fee expended by the user for this report or to replace it at no charge to the user, but in no event shall Clear Capital or broker be responsible for any indirect or consequential damages whatsoever. This warranty is in lieu of all other warranties, express or implied, except where otherwise required by law. The user shall notify Clear Capital within thirty (30) days of delivery if it believes that this report is defective, incorrect, negligently prepared or unfit for its authorized use. Under no circumstances may this form or its contents be published, displayed, copied, replicated, mimicked or distributed, except as expressly approved by Clear Capital."
+}
