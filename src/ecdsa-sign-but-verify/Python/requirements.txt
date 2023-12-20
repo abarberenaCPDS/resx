@@ -1,5 +1,0 @@
-ecdsa
-# test
-pycoin
-hashlib
-secrets

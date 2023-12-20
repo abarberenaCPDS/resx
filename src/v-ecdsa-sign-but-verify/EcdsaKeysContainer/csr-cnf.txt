@@ -1,0 +1,15 @@
+[req]
+prompt = no
+days = 90
+distinguished_name = dn
+req_extensions = ext
+
+[dn]
+OU = VeroSELECT
+CN = VeroSELECT DEV QA Digital Signature 2033
+O = Veros Real Estate Solutions LLC
+L = Santa Ana
+C = US
+stateOrProvinceName = California
+
+[ext]

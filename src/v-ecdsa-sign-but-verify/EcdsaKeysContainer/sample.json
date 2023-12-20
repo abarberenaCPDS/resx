@@ -1,0 +1,817 @@
+{
+  "ResponseStatus": {
+    "IsSuccess": true,
+    "StatusCode": "AVM1000",
+    "StatusMessage": "AVM Order Successful.",
+    "ResponseDate": "2023-11-29T10:06:27"
+  },
+  "TrackingId": "VS645968",
+  "TransactionId": "5965546_6755085",
+  "AVMOrderStatus": "Evaluation Successful",
+  "AVMReport": {
+    "REQUESTEDUSER": "SUPER ADMIN",
+    "STARTED": "11/29/2023 10:06:25 AM",
+    "FINISHED": "11/29/2023 10:06:27 AM",
+    "FINAL_STATUS": "SUCCESSFUL",
+    "PROPERTYDETAILS": {
+      "STREET": "22 VERMILLION",
+      "CITY": "IRVINE",
+      "STATE": "CA",
+      "ZIP": "92603",
+      "DISASTER": { "AFFECTED_BY_DISASTER": "N" }
+    },
+    "SUMMARY": {
+      "REQUEST_ID": "5965546",
+      "SERVICES": [
+        {
+          "POSITION": "1",
+          "NAME": "VeroValue",
+          "STATUS": "Evaluation Successful",
+          "SERVICE_LOG_ID": "6755085",
+          "STARTED": "11/29/2023 10:06:25 AM",
+          "FINISHED": "11/29/2023 10:06:26 AM",
+          "VALUATION": {
+            "VALUES": [
+              {
+                "KEYNAME": "AVM VALUE",
+                "KEYVALUE": "1192000"
+              },
+              {
+                "KEYNAME": "AVM CONFIDENCE SCORE",
+                "KEYVALUE": "93"
+              },
+              {
+                "KEYNAME": "ASSESSORSPARCELIDENTIFIER",
+                "KEYVALUE": "932-601-98"
+              },
+              {
+                "KEYNAME": "COUNTYFIPSCODE",
+                "KEYVALUE": "6059"
+              },
+              {
+                "KEYNAME": "CENSUSTRACTIDENTIFIER",
+                "KEYVALUE": "062654"
+              },
+              {
+                "KEYNAME": "MSAIDENTIFIER",
+                "KEYVALUE": ""
+              },
+              {
+                "KEYNAME": "FSD",
+                "KEYVALUE": ".07"
+              },
+              {
+                "KEYNAME": "AVM LOW VALUE",
+                "KEYVALUE": "1107000"
+              },
+              {
+                "KEYNAME": "AVM HIGH VALUE",
+                "KEYVALUE": "1277000"
+              }
+            ]
+          },
+          "SUBJECTINFORMATION": {
+            "VALUES": [
+              {
+                "KEYNAME": "ASSESSORSPARCELIDENTIFIER",
+                "KEYVALUE": "932-601-98"
+              },
+              {
+                "KEYNAME": "CENSUSTRACTIDENTIFIER",
+                "KEYVALUE": "062654"
+              },
+              {
+                "KEYNAME": "COUNTY",
+                "KEYVALUE": "ORANGE"
+              },
+              {
+                "KEYNAME": "COUNTYFIPSCODE",
+                "KEYVALUE": "6059"
+              },
+              {
+                "KEYNAME": "MSAIDENTIFIER",
+                "KEYVALUE": ""
+              },
+              {
+                "KEYNAME": "ASSESSMENT_YEAR",
+                "KEYVALUE": ""
+              },
+              {
+                "KEYNAME": "ASSESSED_LAND_VALUE",
+                "KEYVALUE": "866347"
+              },
+              {
+                "KEYNAME": "ASSESSED_TOTAL_VALUE",
+                "KEYVALUE": "1058760"
+              },
+              {
+                "KEYNAME": "ASSESSED_IMPROVEMENT_VALUE",
+                "KEYVALUE": "192413"
+              },
+              {
+                "KEYNAME": "LEGAL_DESCRIPTION",
+                "KEYVALUE": ""
+              },
+              {
+                "KEYNAME": "OWNER_NAME",
+                "KEYVALUE": "CHEN HONGXIN"
+              },
+              {
+                "KEYNAME": "SALE_PRICE",
+                "KEYVALUE": "1038000"
+              },
+              {
+                "KEYNAME": "SALE_DATE",
+                "KEYVALUE": "12-AUG-2021"
+              },
+              {
+                "KEYNAME": "PRIOR_SALE_PRICE",
+                "KEYVALUE": "835000"
+              },
+              {
+                "KEYNAME": "PRIOR_SALE_DATE",
+                "KEYVALUE": "30-NOV-2016"
+              },
+              {
+                "KEYNAME": "PROPERTY_RIGHTS",
+                "KEYVALUE": ""
+              },
+              {
+                "KEYNAME": "GROSS_LIVING_AREA",
+                "KEYVALUE": "1534"
+              },
+              {
+                "KEYNAME": "TOTAL_BEDROOMS",
+                "KEYVALUE": "3"
+              },
+              {
+                "KEYNAME": "TOTAL_BATHROOMS",
+                "KEYVALUE": "3"
+              },
+              {
+                "KEYNAME": "LOT_SIZE",
+                "KEYVALUE": "3500"
+              },
+              {
+                "KEYNAME": "NO_OF_UNITS",
+                "KEYVALUE": ""
+              },
+              {
+                "KEYNAME": "GARAGE_SPACES_COUNT",
+                "KEYVALUE": "1"
+              },
+              {
+                "KEYNAME": "POOL",
+                "KEYVALUE": "N"
+              },
+              {
+                "KEYNAME": "FIREPLACE_COUNT",
+                "KEYVALUE": "0"
+              },
+              {
+                "KEYNAME": "PROPERTY_TYPE",
+                "KEYVALUE": "CONDO"
+              },
+              {
+                "KEYNAME": "TOTAL_STORIES",
+                "KEYVALUE": ""
+              },
+              {
+                "KEYNAME": "YEAR_BUILT",
+                "KEYVALUE": "2003"
+              },
+              {
+                "KEYNAME": "LATITUDE",
+                "KEYVALUE": "33.652104"
+              },
+              {
+                "KEYNAME": "LONGITUDE",
+                "KEYVALUE": "-117.778581"
+              }
+            ]
+          },
+          "COMPARABLES": {
+            "COMPARABLE": [
+              {
+                "ITEM": "1",
+                "VALUES": [
+                  {
+                    "KEYNAME": "STREET",
+                    "KEYVALUE": "19  CARNATION"
+                  },
+                  {
+                    "KEYNAME": "CITY",
+                    "KEYVALUE": "IRVINE"
+                  },
+                  {
+                    "KEYNAME": "STATE",
+                    "KEYVALUE": "CA"
+                  },
+                  {
+                    "KEYNAME": "ZIP",
+                    "KEYVALUE": "92618"
+                  },
+                  {
+                    "KEYNAME": "ASSESSORSPARCELIDENTIFIER",
+                    "KEYVALUE": "935-372-67"
+                  },
+                  {
+                    "KEYNAME": "CENSUSTRACTIDENTIFIER",
+                    "KEYVALUE": "052531"
+                  },
+                  {
+                    "KEYNAME": "ASSD_VALUE_TOTAL",
+                    "KEYVALUE": "756655"
+                  },
+                  {
+                    "KEYNAME": "PROPERTY_TAX",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "SALE_PRICE",
+                    "KEYVALUE": "1208000"
+                  },
+                  {
+                    "KEYNAME": "SALE_DATE",
+                    "KEYVALUE": "21-NOV-2023"
+                  },
+                  {
+                    "KEYNAME": "GROSS_LIVING_AREA",
+                    "KEYVALUE": "1668"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_BEDROOMS",
+                    "KEYVALUE": "3"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_BATHROOMS",
+                    "KEYVALUE": "3"
+                  },
+                  {
+                    "KEYNAME": "LOT_SIZE",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "NO_OF_UNITS",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "GARAGE_SPACES_COUNT",
+                    "KEYVALUE": "1"
+                  },
+                  {
+                    "KEYNAME": "POOL",
+                    "KEYVALUE": "N"
+                  },
+                  {
+                    "KEYNAME": "FIREPLACE_COUNT",
+                    "KEYVALUE": "0"
+                  },
+                  {
+                    "KEYNAME": "PROPERTY_TYPE",
+                    "KEYVALUE": "CONDO"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_STORIES",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "YEAR_BUILT",
+                    "KEYVALUE": "2000"
+                  },
+                  {
+                    "KEYNAME": "LATITUDE",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "LONGITUDE",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "PROXIMITY",
+                    "KEYVALUE": ".98"
+                  }
+                ]
+              },
+              {
+                "ITEM": "2",
+                "VALUES": [
+                  {
+                    "KEYNAME": "STREET",
+                    "KEYVALUE": "47  WINDCHIME"
+                  },
+                  {
+                    "KEYNAME": "CITY",
+                    "KEYVALUE": "IRVINE"
+                  },
+                  {
+                    "KEYNAME": "STATE",
+                    "KEYVALUE": "CA"
+                  },
+                  {
+                    "KEYNAME": "ZIP",
+                    "KEYVALUE": "92603"
+                  },
+                  {
+                    "KEYNAME": "ASSESSORSPARCELIDENTIFIER",
+                    "KEYVALUE": "932-602-05"
+                  },
+                  {
+                    "KEYNAME": "CENSUSTRACTIDENTIFIER",
+                    "KEYVALUE": "062654"
+                  },
+                  {
+                    "KEYNAME": "ASSD_VALUE_TOTAL",
+                    "KEYVALUE": "761152"
+                  },
+                  {
+                    "KEYNAME": "PROPERTY_TAX",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "SALE_PRICE",
+                    "KEYVALUE": "1253000"
+                  },
+                  {
+                    "KEYNAME": "SALE_DATE",
+                    "KEYVALUE": "20-NOV-2023"
+                  },
+                  {
+                    "KEYNAME": "GROSS_LIVING_AREA",
+                    "KEYVALUE": "1330"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_BEDROOMS",
+                    "KEYVALUE": "3"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_BATHROOMS",
+                    "KEYVALUE": "3"
+                  },
+                  {
+                    "KEYNAME": "LOT_SIZE",
+                    "KEYVALUE": "2003"
+                  },
+                  {
+                    "KEYNAME": "NO_OF_UNITS",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "GARAGE_SPACES_COUNT",
+                    "KEYVALUE": "1"
+                  },
+                  {
+                    "KEYNAME": "POOL",
+                    "KEYVALUE": "N"
+                  },
+                  {
+                    "KEYNAME": "FIREPLACE_COUNT",
+                    "KEYVALUE": "0"
+                  },
+                  {
+                    "KEYNAME": "PROPERTY_TYPE",
+                    "KEYVALUE": "CONDO"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_STORIES",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "YEAR_BUILT",
+                    "KEYVALUE": "2004"
+                  },
+                  {
+                    "KEYNAME": "LATITUDE",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "LONGITUDE",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "PROXIMITY",
+                    "KEYVALUE": ".06"
+                  }
+                ]
+              },
+              {
+                "ITEM": "3",
+                "VALUES": [
+                  {
+                    "KEYNAME": "STREET",
+                    "KEYVALUE": "20  SEASONS"
+                  },
+                  {
+                    "KEYNAME": "CITY",
+                    "KEYVALUE": "IRVINE"
+                  },
+                  {
+                    "KEYNAME": "STATE",
+                    "KEYVALUE": "CA"
+                  },
+                  {
+                    "KEYNAME": "ZIP",
+                    "KEYVALUE": "92603"
+                  },
+                  {
+                    "KEYNAME": "ASSESSORSPARCELIDENTIFIER",
+                    "KEYVALUE": "936-340-32"
+                  },
+                  {
+                    "KEYNAME": "CENSUSTRACTIDENTIFIER",
+                    "KEYVALUE": "062654"
+                  },
+                  {
+                    "KEYNAME": "ASSD_VALUE_TOTAL",
+                    "KEYVALUE": "863979"
+                  },
+                  {
+                    "KEYNAME": "PROPERTY_TAX",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "SALE_PRICE",
+                    "KEYVALUE": "1300000"
+                  },
+                  {
+                    "KEYNAME": "SALE_DATE",
+                    "KEYVALUE": "16-NOV-2023"
+                  },
+                  {
+                    "KEYNAME": "GROSS_LIVING_AREA",
+                    "KEYVALUE": "1741"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_BEDROOMS",
+                    "KEYVALUE": "3"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_BATHROOMS",
+                    "KEYVALUE": "3"
+                  },
+                  {
+                    "KEYNAME": "LOT_SIZE",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "NO_OF_UNITS",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "GARAGE_SPACES_COUNT",
+                    "KEYVALUE": "1"
+                  },
+                  {
+                    "KEYNAME": "POOL",
+                    "KEYVALUE": "N"
+                  },
+                  {
+                    "KEYNAME": "FIREPLACE_COUNT",
+                    "KEYVALUE": "1"
+                  },
+                  {
+                    "KEYNAME": "PROPERTY_TYPE",
+                    "KEYVALUE": "CONDO"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_STORIES",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "YEAR_BUILT",
+                    "KEYVALUE": "2003"
+                  },
+                  {
+                    "KEYNAME": "LATITUDE",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "LONGITUDE",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "PROXIMITY",
+                    "KEYVALUE": ".15"
+                  }
+                ]
+              },
+              {
+                "ITEM": "4",
+                "VALUES": [
+                  {
+                    "KEYNAME": "STREET",
+                    "KEYVALUE": "111  WINDCHIME"
+                  },
+                  {
+                    "KEYNAME": "CITY",
+                    "KEYVALUE": "IRVINE"
+                  },
+                  {
+                    "KEYNAME": "STATE",
+                    "KEYVALUE": "CA"
+                  },
+                  {
+                    "KEYNAME": "ZIP",
+                    "KEYVALUE": "92603"
+                  },
+                  {
+                    "KEYNAME": "ASSESSORSPARCELIDENTIFIER",
+                    "KEYVALUE": "932-601-36"
+                  },
+                  {
+                    "KEYNAME": "CENSUSTRACTIDENTIFIER",
+                    "KEYVALUE": "062654"
+                  },
+                  {
+                    "KEYNAME": "ASSD_VALUE_TOTAL",
+                    "KEYVALUE": "1006153"
+                  },
+                  {
+                    "KEYNAME": "PROPERTY_TAX",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "SALE_PRICE",
+                    "KEYVALUE": "1400000"
+                  },
+                  {
+                    "KEYNAME": "SALE_DATE",
+                    "KEYVALUE": "15-NOV-2023"
+                  },
+                  {
+                    "KEYNAME": "GROSS_LIVING_AREA",
+                    "KEYVALUE": "1534"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_BEDROOMS",
+                    "KEYVALUE": "3"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_BATHROOMS",
+                    "KEYVALUE": "3"
+                  },
+                  {
+                    "KEYNAME": "LOT_SIZE",
+                    "KEYVALUE": "1742"
+                  },
+                  {
+                    "KEYNAME": "NO_OF_UNITS",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "GARAGE_SPACES_COUNT",
+                    "KEYVALUE": "1"
+                  },
+                  {
+                    "KEYNAME": "POOL",
+                    "KEYVALUE": "N"
+                  },
+                  {
+                    "KEYNAME": "FIREPLACE_COUNT",
+                    "KEYVALUE": "0"
+                  },
+                  {
+                    "KEYNAME": "PROPERTY_TYPE",
+                    "KEYVALUE": "CONDO"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_STORIES",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "YEAR_BUILT",
+                    "KEYVALUE": "2003"
+                  },
+                  {
+                    "KEYNAME": "LATITUDE",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "LONGITUDE",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "PROXIMITY",
+                    "KEYVALUE": ".06"
+                  }
+                ]
+              },
+              {
+                "ITEM": "5",
+                "VALUES": [
+                  {
+                    "KEYNAME": "STREET",
+                    "KEYVALUE": "3  PALAGONIA AVE"
+                  },
+                  {
+                    "KEYNAME": "CITY",
+                    "KEYVALUE": "IRVINE"
+                  },
+                  {
+                    "KEYNAME": "STATE",
+                    "KEYVALUE": "CA"
+                  },
+                  {
+                    "KEYNAME": "ZIP",
+                    "KEYVALUE": "92697"
+                  },
+                  {
+                    "KEYNAME": "ASSESSORSPARCELIDENTIFIER",
+                    "KEYVALUE": "937-816-57"
+                  },
+                  {
+                    "KEYNAME": "CENSUSTRACTIDENTIFIER",
+                    "KEYVALUE": "052531"
+                  },
+                  {
+                    "KEYNAME": "ASSD_VALUE_TOTAL",
+                    "KEYVALUE": "790704"
+                  },
+                  {
+                    "KEYNAME": "PROPERTY_TAX",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "SALE_PRICE",
+                    "KEYVALUE": "1100000"
+                  },
+                  {
+                    "KEYNAME": "SALE_DATE",
+                    "KEYVALUE": "09-OCT-2023"
+                  },
+                  {
+                    "KEYNAME": "GROSS_LIVING_AREA",
+                    "KEYVALUE": "1575"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_BEDROOMS",
+                    "KEYVALUE": "3"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_BATHROOMS",
+                    "KEYVALUE": "3"
+                  },
+                  {
+                    "KEYNAME": "LOT_SIZE",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "NO_OF_UNITS",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "GARAGE_SPACES_COUNT",
+                    "KEYVALUE": "1"
+                  },
+                  {
+                    "KEYNAME": "POOL",
+                    "KEYVALUE": "N"
+                  },
+                  {
+                    "KEYNAME": "FIREPLACE_COUNT",
+                    "KEYVALUE": "0"
+                  },
+                  {
+                    "KEYNAME": "PROPERTY_TYPE",
+                    "KEYVALUE": "CONDO"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_STORIES",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "YEAR_BUILT",
+                    "KEYVALUE": "1998"
+                  },
+                  {
+                    "KEYNAME": "LATITUDE",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "LONGITUDE",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "PROXIMITY",
+                    "KEYVALUE": "1"
+                  }
+                ]
+              },
+              {
+                "ITEM": "6",
+                "VALUES": [
+                  {
+                    "KEYNAME": "STREET",
+                    "KEYVALUE": "102  DUET"
+                  },
+                  {
+                    "KEYNAME": "CITY",
+                    "KEYVALUE": "IRVINE"
+                  },
+                  {
+                    "KEYNAME": "STATE",
+                    "KEYVALUE": "CA"
+                  },
+                  {
+                    "KEYNAME": "ZIP",
+                    "KEYVALUE": "92603"
+                  },
+                  {
+                    "KEYNAME": "ASSESSORSPARCELIDENTIFIER",
+                    "KEYVALUE": "935-355-92"
+                  },
+                  {
+                    "KEYNAME": "CENSUSTRACTIDENTIFIER",
+                    "KEYVALUE": "062654"
+                  },
+                  {
+                    "KEYNAME": "ASSD_VALUE_TOTAL",
+                    "KEYVALUE": "797266"
+                  },
+                  {
+                    "KEYNAME": "PROPERTY_TAX",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "SALE_PRICE",
+                    "KEYVALUE": "1255000"
+                  },
+                  {
+                    "KEYNAME": "SALE_DATE",
+                    "KEYVALUE": "01-SEP-2023"
+                  },
+                  {
+                    "KEYNAME": "GROSS_LIVING_AREA",
+                    "KEYVALUE": "1330"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_BEDROOMS",
+                    "KEYVALUE": "3"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_BATHROOMS",
+                    "KEYVALUE": "3"
+                  },
+                  {
+                    "KEYNAME": "LOT_SIZE",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "NO_OF_UNITS",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "GARAGE_SPACES_COUNT",
+                    "KEYVALUE": "1"
+                  },
+                  {
+                    "KEYNAME": "POOL",
+                    "KEYVALUE": "N"
+                  },
+                  {
+                    "KEYNAME": "FIREPLACE_COUNT",
+                    "KEYVALUE": "0"
+                  },
+                  {
+                    "KEYNAME": "PROPERTY_TYPE",
+                    "KEYVALUE": "CONDO"
+                  },
+                  {
+                    "KEYNAME": "TOTAL_STORIES",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "YEAR_BUILT",
+                    "KEYVALUE": "2004"
+                  },
+                  {
+                    "KEYNAME": "LATITUDE",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "LONGITUDE",
+                    "KEYVALUE": ""
+                  },
+                  {
+                    "KEYNAME": "PROXIMITY",
+                    "KEYVALUE": ".34"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "RESULT": {
+      "SERVICE_NAME": "VeroValue",
+      "POSITION": "1",
+      "SERVICE_LOG_ID": "6755085",
+      "SERVICEXML": "<VEROVALUATION>  <USER_REPORT_PERMISSIONS>    <VV_CENSUSMAP>N<\/VV_CENSUSMAP>    <VV_CENSUS_TRACT_DATA>N<\/VV_CENSUS_TRACT_DATA>    <VV_EPAMAP>N<\/VV_EPAMAP>    <VV_FLOOD>N<\/VV_FLOOD>    <VV_FORECAST_ADVANCED>Y<\/VV_FORECAST_ADVANCED>    <VV_FORECAST_BASIC>N<\/VV_FORECAST_BASIC>    <VV_FRAUD>N<\/VV_FRAUD>    <VV_FSD>N<\/VV_FSD>    <VV_HOUSEPHOTO>Y<\/VV_HOUSEPHOTO>    <VV_MARKET_DATA_DETAIL>Y<\/VV_MARKET_DATA_DETAIL>    <VV_MARKET_DATA_SELECTION>N<\/VV_MARKET_DATA_SELECTION>    <VV_MARKET_DATA_SUMMARY>Y<\/VV_MARKET_DATA_SUMMARY>    <VV_NEIGHBORHOODCHART1>Y<\/VV_NEIGHBORHOODCHART1>    <VV_NEIGHBORPHOTO>N<\/VV_NEIGHBORPHOTO>    <VV_PRICETRENDS>Y<\/VV_PRICETRENDS>    <VV_RECALL_DISPLAY>N<\/VV_RECALL_DISPLAY>    <VV_REFPOPUP>N<\/VV_REFPOPUP>    <VV_RISK_NUMBER>N<\/VV_RISK_NUMBER>    <VV_SEAL>N<\/VV_SEAL>    <VV_SITEMAP>Y<\/VV_SITEMAP>    <VV_SITEPHOTO>N<\/VV_SITEPHOTO>    <VV_SUBJ_PROP_INFO>Y<\/VV_SUBJ_PROP_INFO>    <VV_SUBJ_SALES_HIST>Y<\/VV_SUBJ_SALES_HIST>    <VV_TITLE>N<\/VV_TITLE>    <VV_TITLE_VENDOR>Y<\/VV_TITLE_VENDOR>    <VV_VALUE>Y<\/VV_VALUE>    <VV_VALUE_FORECAST>Y<\/VV_VALUE_FORECAST>  <\/USER_REPORT_PERMISSIONS>  <VERSION>vvp 10.5.8.20<\/VERSION>  <PRODUCT>VV_XML<\/PRODUCT>  <DBS>AVM<\/DBS>  <VALDATE>29-NOV-2023<\/VALDATE>  <VALTIME>10:06 AM<\/VALTIME>  <COPYRIGHT>2018 VEROS REAL ESTATE SOLUTIONS<\/COPYRIGHT>  <REPORT_DATE>29-NOV-2023<\/REPORT_DATE>  <REPORT_NUM>1060961692<\/REPORT_NUM>  <ACCESS_CODE>SVXN3ZO9703<\/ACCESS_CODE>  <PROP_CHAR>    <FIPS_COUNTY_CODE>6059<\/FIPS_COUNTY_CODE>    <APN>932-601-98<\/APN>    <OWNER_NAME>CHEN HONGXIN<\/OWNER_NAME>    <HOUSE_NUMBER>22<\/HOUSE_NUMBER>    <HOUSE_NUMBER>22<\/HOUSE_NUMBER>    <HOUSE_DIRECTION />    <HOUSE_STREET>VERMILLION<\/HOUSE_STREET>    <HOUSE_STREET_MODE />    <HOUSE_MODE_DIRECTION />    <HOUSE_UNIT_NUMBER />    <FULL_ADDRESS>22 VERMILLION<\/FULL_ADDRESS>    <HOUSE_CITY>IRVINE<\/HOUSE_CITY>    <STATE>CA<\/STATE>    <HOUSE_ZIP_CODE>92603<\/HOUSE_ZIP_CODE>    <UNIVERSAL_SQUARE_FEET>1534<\/UNIVERSAL_SQUARE_FEET>    <LAND_SQUARE_FOOTAGE>3500<\/LAND_SQUARE_FOOTAGE>    <BEDROOMS>3<\/BEDROOMS>    <TOTAL_BATHROOMS>3<\/TOTAL_BATHROOMS>    <LATITUDE>33.652104<\/LATITUDE>    <LONGITUDE>-117.778581<\/LONGITUDE>    <YEAR_BUILT>2003<\/YEAR_BUILT>    <LAND_USE>CONDO<\/LAND_USE>    <POOL>N<\/POOL>    <VIEW />    <AIR_CONDITION>Y<\/AIR_CONDITION>    <STORIES />    <GARAGE>1<\/GARAGE>    <FIREPLACE>0<\/FIREPLACE>    <CENSUS_TRACT>062654<\/CENSUS_TRACT>    <ASSD_VALUE_LAND>866347<\/ASSD_VALUE_LAND>    <ASSD_VALUE_TOTAL>1058760<\/ASSD_VALUE_TOTAL>    <ASSD_VALUE_IMPROVEMENT>192413<\/ASSD_VALUE_IMPROVEMENT>    <COUNTY>ORANGE<\/COUNTY>    <VERO_VALUE>1192000<\/VERO_VALUE>    <FINAL_VALUE_LOWER_LIMIT>1107000<\/FINAL_VALUE_LOWER_LIMIT>    <FINAL_VALUE_UPPER_LIMIT>1277000<\/FINAL_VALUE_UPPER_LIMIT>    <VEROCONFIDENCE_SCORE>93<\/VEROCONFIDENCE_SCORE>    <FSD>.07<\/FSD>    <ALT_CONFIDENCE_SCORE />    <VV_DISASTER>N<\/VV_DISASTER>    <USERVCSLIMIT>50<\/USERVCSLIMIT>    <RESULT_CODE>200<\/RESULT_CODE>    <RISK_SCORE>0<\/RISK_SCORE>    <RISK_FLAG>0<\/RISK_FLAG>    <COLLATERAL_SCORE />    <FORECAST_VALUE />    <FORECAST_DATE />    <TOLERANCE_APPLIED_INDICATOR />    <ORIGINAL_VALUE_ESTIMATE />    <ORIGINAL_CONFIDENCE_SCORE />    <RCS />    <VFI />    <CLIENT_REF>CustRef123<\/CLIENT_REF>    <BORROWER_NAME>Steven Boyle<\/BORROWER_NAME>  <\/PROP_CHAR>  <COMPQTY>6<\/COMPQTY>  <COMPSLIST>    <COMPS ITEM=\"0\">      <COMPS_ADDRESS>19  CARNATION   <\/COMPS_ADDRESS>      <COMPS_CITY>IRVINE<\/COMPS_CITY>      <COMPS_STATE>CA<\/COMPS_STATE>      <COMPS_ZIP>92618<\/COMPS_ZIP>      <COMPS_DIST>.98<\/COMPS_DIST>      <COMPS_SQFT>1668<\/COMPS_SQFT>      <COMPS_VIEW />      <COMPS_AIR_CONDITION />      <COMPS_STORIES />      <COMPS_GARAGE>1<\/COMPS_GARAGE>      <COMPS_FIREPLACE>0<\/COMPS_FIREPLACE>      <COMPS_POOL>N<\/COMPS_POOL>      <COMPS_CENSUS>052531<\/COMPS_CENSUS>      <COMPS_BR>3<\/COMPS_BR>      <COMPS_BA>3<\/COMPS_BA>      <COMPS_LOT />      <COMPS_LAND_USE>CONDO<\/COMPS_LAND_USE>      <COMPS_COUNTY>ORANGE<\/COMPS_COUNTY>      <COMPS_YB>2000<\/COMPS_YB>      <COMPS_TODAYS_VALUE>1208000<\/COMPS_TODAYS_VALUE>      <COMPS_XFER_VALUE>1208000<\/COMPS_XFER_VALUE>      <COMPS_XFER_DATE>21-NOV-2023<\/COMPS_XFER_DATE>      <COMPS_ASSD_LAND>552827<\/COMPS_ASSD_LAND>      <COMPS_ASSD_IMPROV>203828<\/COMPS_ASSD_IMPROV>      <COMPS_ASSD_TOTAL>756655<\/COMPS_ASSD_TOTAL>      <COMPS_PRIOR_XFER_DATE>23-JUL-2015<\/COMPS_PRIOR_XFER_DATE>      <COMPS_PRIOR_XFER_VALUE>665000<\/COMPS_PRIOR_XFER_VALUE>      <COMPS_APN>935-372-67<\/COMPS_APN>      <COMPS_OWNER />      <COMPS_DISTANCE>.98<\/COMPS_DISTANCE>    <\/COMPS>    <COMPS ITEM=\"1\">      <COMPS_ADDRESS>47  WINDCHIME   <\/COMPS_ADDRESS>      <COMPS_CITY>IRVINE<\/COMPS_CITY>      <COMPS_STATE>CA<\/COMPS_STATE>      <COMPS_ZIP>92603<\/COMPS_ZIP>      <COMPS_DIST>.06<\/COMPS_DIST>      <COMPS_SQFT>1330<\/COMPS_SQFT>      <COMPS_VIEW />      <COMPS_AIR_CONDITION />      <COMPS_STORIES />      <COMPS_GARAGE>1<\/COMPS_GARAGE>      <COMPS_FIREPLACE>0<\/COMPS_FIREPLACE>      <COMPS_POOL>N<\/COMPS_POOL>      <COMPS_CENSUS>062654<\/COMPS_CENSUS>      <COMPS_BR>3<\/COMPS_BR>      <COMPS_BA>3<\/COMPS_BA>      <COMPS_LOT>2003<\/COMPS_LOT>      <COMPS_LAND_USE>CONDO<\/COMPS_LAND_USE>      <COMPS_COUNTY>ORANGE<\/COMPS_COUNTY>      <COMPS_YB>2004<\/COMPS_YB>      <COMPS_TODAYS_VALUE>1253000<\/COMPS_TODAYS_VALUE>      <COMPS_XFER_VALUE>1253000<\/COMPS_XFER_VALUE>      <COMPS_XFER_DATE>20-NOV-2023<\/COMPS_XFER_DATE>      <COMPS_ASSD_LAND>576198<\/COMPS_ASSD_LAND>      <COMPS_ASSD_IMPROV>184954<\/COMPS_ASSD_IMPROV>      <COMPS_ASSD_TOTAL>761152<\/COMPS_ASSD_TOTAL>      <COMPS_PRIOR_XFER_DATE>25-MAR-2014<\/COMPS_PRIOR_XFER_DATE>      <COMPS_PRIOR_XFER_VALUE>646000<\/COMPS_PRIOR_XFER_VALUE>      <COMPS_APN>932-602-05<\/COMPS_APN>      <COMPS_OWNER>THATCHER LISA L<\/COMPS_OWNER>      <COMPS_DISTANCE>.06<\/COMPS_DISTANCE>    <\/COMPS>    <COMPS ITEM=\"2\">      <COMPS_ADDRESS>20  SEASONS   <\/COMPS_ADDRESS>      <COMPS_CITY>IRVINE<\/COMPS_CITY>      <COMPS_STATE>CA<\/COMPS_STATE>      <COMPS_ZIP>92603<\/COMPS_ZIP>      <COMPS_DIST>.15<\/COMPS_DIST>      <COMPS_SQFT>1741<\/COMPS_SQFT>      <COMPS_VIEW />      <COMPS_AIR_CONDITION>Y<\/COMPS_AIR_CONDITION>      <COMPS_STORIES />      <COMPS_GARAGE>1<\/COMPS_GARAGE>      <COMPS_FIREPLACE>1<\/COMPS_FIREPLACE>      <COMPS_POOL>N<\/COMPS_POOL>      <COMPS_CENSUS>062654<\/COMPS_CENSUS>      <COMPS_BR>3<\/COMPS_BR>      <COMPS_BA>3<\/COMPS_BA>      <COMPS_LOT />      <COMPS_LAND_USE>CONDO<\/COMPS_LAND_USE>      <COMPS_COUNTY>ORANGE<\/COMPS_COUNTY>      <COMPS_YB>2003<\/COMPS_YB>      <COMPS_TODAYS_VALUE>1300000<\/COMPS_TODAYS_VALUE>      <COMPS_XFER_VALUE>1300000<\/COMPS_XFER_VALUE>      <COMPS_XFER_DATE>16-NOV-2023<\/COMPS_XFER_DATE>      <COMPS_ASSD_LAND>633472<\/COMPS_ASSD_LAND>      <COMPS_ASSD_IMPROV>230507<\/COMPS_ASSD_IMPROV>      <COMPS_ASSD_TOTAL>863979<\/COMPS_ASSD_TOTAL>      <COMPS_PRIOR_XFER_DATE>08-MAY-2018<\/COMPS_PRIOR_XFER_DATE>      <COMPS_PRIOR_XFER_VALUE>790000<\/COMPS_PRIOR_XFER_VALUE>      <COMPS_APN>936-340-32<\/COMPS_APN>      <COMPS_OWNER>NGUYEN HUA FAMILY TRUST:NGUYEN<\/COMPS_OWNER>      <COMPS_DISTANCE>.15<\/COMPS_DISTANCE>    <\/COMPS>    <COMPS ITEM=\"3\">      <COMPS_ADDRESS>111  WINDCHIME   <\/COMPS_ADDRESS>      <COMPS_CITY>IRVINE<\/COMPS_CITY>      <COMPS_STATE>CA<\/COMPS_STATE>      <COMPS_ZIP>92603<\/COMPS_ZIP>      <COMPS_DIST>.06<\/COMPS_DIST>      <COMPS_SQFT>1534<\/COMPS_SQFT>      <COMPS_VIEW />      <COMPS_AIR_CONDITION />      <COMPS_STORIES />      <COMPS_GARAGE>1<\/COMPS_GARAGE>      <COMPS_FIREPLACE>0<\/COMPS_FIREPLACE>      <COMPS_POOL>N<\/COMPS_POOL>      <COMPS_CENSUS>062654<\/COMPS_CENSUS>      <COMPS_BR>3<\/COMPS_BR>      <COMPS_BA>3<\/COMPS_BA>      <COMPS_LOT>1742<\/COMPS_LOT>      <COMPS_LAND_USE>CONDO<\/COMPS_LAND_USE>      <COMPS_COUNTY>ORANGE<\/COMPS_COUNTY>      <COMPS_YB>2003<\/COMPS_YB>      <COMPS_TODAYS_VALUE>1400000<\/COMPS_TODAYS_VALUE>      <COMPS_XFER_VALUE>1400000<\/COMPS_XFER_VALUE>      <COMPS_XFER_DATE>15-NOV-2023<\/COMPS_XFER_DATE>      <COMPS_ASSD_LAND>822325<\/COMPS_ASSD_LAND>      <COMPS_ASSD_IMPROV>183828<\/COMPS_ASSD_IMPROV>      <COMPS_ASSD_TOTAL>1006153<\/COMPS_ASSD_TOTAL>      <COMPS_PRIOR_XFER_DATE>03-OCT-2017<\/COMPS_PRIOR_XFER_DATE>      <COMPS_PRIOR_XFER_VALUE>920000<\/COMPS_PRIOR_XFER_VALUE>      <COMPS_APN>932-601-36<\/COMPS_APN>      <COMPS_OWNER>JEFF BLASCHKO FAMILY TRUST:BLASCHKO<\/COMPS_OWNER>      <COMPS_DISTANCE>.06<\/COMPS_DISTANCE>    <\/COMPS>    <COMPS ITEM=\"4\">      <COMPS_ADDRESS>3  PALAGONIA AVE  <\/COMPS_ADDRESS>      <COMPS_CITY>IRVINE<\/COMPS_CITY>      <COMPS_STATE>CA<\/COMPS_STATE>      <COMPS_ZIP>92697<\/COMPS_ZIP>      <COMPS_DIST>1<\/COMPS_DIST>      <COMPS_SQFT>1575<\/COMPS_SQFT>      <COMPS_VIEW />      <COMPS_AIR_CONDITION />      <COMPS_STORIES />      <COMPS_GARAGE>1<\/COMPS_GARAGE>      <COMPS_FIREPLACE>0<\/COMPS_FIREPLACE>      <COMPS_POOL>N<\/COMPS_POOL>      <COMPS_CENSUS>052531<\/COMPS_CENSUS>      <COMPS_BR>3<\/COMPS_BR>      <COMPS_BA>3<\/COMPS_BA>      <COMPS_LOT />      <COMPS_LAND_USE>CONDO<\/COMPS_LAND_USE>      <COMPS_COUNTY>ORANGE<\/COMPS_COUNTY>      <COMPS_YB>1998<\/COMPS_YB>      <COMPS_TODAYS_VALUE>1100000<\/COMPS_TODAYS_VALUE>      <COMPS_XFER_VALUE>1100000<\/COMPS_XFER_VALUE>      <COMPS_XFER_DATE>09-OCT-2023<\/COMPS_XFER_DATE>      <COMPS_ASSD_LAND>588788<\/COMPS_ASSD_LAND>      <COMPS_ASSD_IMPROV>201916<\/COMPS_ASSD_IMPROV>      <COMPS_ASSD_TOTAL>790704<\/COMPS_ASSD_TOTAL>      <COMPS_PRIOR_XFER_DATE>18-SEP-2020<\/COMPS_PRIOR_XFER_DATE>      <COMPS_PRIOR_XFER_VALUE>760000<\/COMPS_PRIOR_XFER_VALUE>      <COMPS_APN>937-816-57<\/COMPS_APN>      <COMPS_OWNER>WONG CHRISTY PEI-JEE<\/COMPS_OWNER>      <COMPS_DISTANCE>1<\/COMPS_DISTANCE>    <\/COMPS>    <COMPS ITEM=\"5\">      <COMPS_ADDRESS>102  DUET   <\/COMPS_ADDRESS>      <COMPS_CITY>IRVINE<\/COMPS_CITY>      <COMPS_STATE>CA<\/COMPS_STATE>      <COMPS_ZIP>92603<\/COMPS_ZIP>      <COMPS_DIST>.34<\/COMPS_DIST>      <COMPS_SQFT>1330<\/COMPS_SQFT>      <COMPS_VIEW />      <COMPS_AIR_CONDITION />      <COMPS_STORIES />      <COMPS_GARAGE>1<\/COMPS_GARAGE>      <COMPS_FIREPLACE>0<\/COMPS_FIREPLACE>      <COMPS_POOL>N<\/COMPS_POOL>      <COMPS_CENSUS>062654<\/COMPS_CENSUS>      <COMPS_BR>3<\/COMPS_BR>      <COMPS_BA>3<\/COMPS_BA>      <COMPS_LOT />      <COMPS_LAND_USE>CONDO<\/COMPS_LAND_USE>      <COMPS_COUNTY>ORANGE<\/COMPS_COUNTY>      <COMPS_YB>2004<\/COMPS_YB>      <COMPS_TODAYS_VALUE>1255000<\/COMPS_TODAYS_VALUE>      <COMPS_XFER_VALUE>1255000<\/COMPS_XFER_VALUE>      <COMPS_XFER_DATE>01-SEP-2023<\/COMPS_XFER_DATE>      <COMPS_ASSD_LAND>613743<\/COMPS_ASSD_LAND>      <COMPS_ASSD_IMPROV>183523<\/COMPS_ASSD_IMPROV>      <COMPS_ASSD_TOTAL>797266<\/COMPS_ASSD_TOTAL>      <COMPS_PRIOR_XFER_DATE>08-SEP-2017<\/COMPS_PRIOR_XFER_DATE>      <COMPS_PRIOR_XFER_VALUE>729000<\/COMPS_PRIOR_XFER_VALUE>      <COMPS_APN>935-355-92<\/COMPS_APN>      <COMPS_OWNER>LUCYS LIVING TRUST<\/COMPS_OWNER>      <COMPS_DISTANCE>.34<\/COMPS_DISTANCE>    <\/COMPS>  <\/COMPSLIST>  <SALES_HISTORY_INFO>    <SALES_INFO ITEM=\"0\">      <HISTORY_SALE_DATE>12-AUG-2021<\/HISTORY_SALE_DATE>      <HISTORY_SALE_PRICE>1038000<\/HISTORY_SALE_PRICE>      <HISTORY_LOAN_AMOUNT>660000<\/HISTORY_LOAN_AMOUNT>      <HISTORY_SELLER>TANK DINA H<\/HISTORY_SELLER>      <HISTORY_BUYER>CHEN HONGXIN:DAI YAN<\/HISTORY_BUYER>    <\/SALES_INFO>    <SALES_INFO ITEM=\"1\">      <HISTORY_SALE_DATE>30-NOV-2016<\/HISTORY_SALE_DATE>      <HISTORY_SALE_PRICE>835000<\/HISTORY_SALE_PRICE>      <HISTORY_LOAN_AMOUNT>617900<\/HISTORY_LOAN_AMOUNT>      <HISTORY_SELLER>ASSOUAD SIMON<\/HISTORY_SELLER>      <HISTORY_BUYER>TANK DINA H<\/HISTORY_BUYER>    <\/SALES_INFO>    <SALES_INFO ITEM=\"2\">      <HISTORY_SALE_DATE>10-APR-2006<\/HISTORY_SALE_DATE>      <HISTORY_SALE_PRICE>733000<\/HISTORY_SALE_PRICE>      <HISTORY_LOAN_AMOUNT>400000<\/HISTORY_LOAN_AMOUNT>      <HISTORY_SELLER>COLLVER RHETT:COLLVER KAMI<\/HISTORY_SELLER>      <HISTORY_BUYER>ASSOUAD SIMON<\/HISTORY_BUYER>    <\/SALES_INFO>    <SALES_INFO ITEM=\"3\">      <HISTORY_SALE_DATE>18-NOV-2003<\/HISTORY_SALE_DATE>      <HISTORY_SALE_PRICE>466000<\/HISTORY_SALE_PRICE>      <HISTORY_LOAN_AMOUNT>372750<\/HISTORY_LOAN_AMOUNT>      <HISTORY_SELLER>CALIFORNIA PACIFIC HOMES INC<\/HISTORY_SELLER>      <HISTORY_BUYER>COLLVER RHETT:COLLVER KAMI<\/HISTORY_BUYER>    <\/SALES_INFO>  <\/SALES_HISTORY_INFO>  <RESULTS>    <USERID>veroselectdd<\/USERID>    <COMPANYID>vero1<\/COMPANYID>  <\/RESULTS>  <CHARTS>    <CA_DATA>PD94bWwgdmVyc2lvbj0iMS4wIiA%2fPjxWRVJPVkFMVUFUSU9OPjxBVk1DSEFSVFM%2bPE5FSUdIQk9SSE9PRF9QUklDRV9SQU5HRV9DSEFSVD48TE9XX1ZBTFVFPjQ0NTAwMDwvTE9XX1ZBTFVFPjxISUdIX1ZBTFVFPjMzMzQwMDA8L0hJR0hfVkFMVUU%2bPFRIRTI1VEhfVkFMVUU%2bMTAyODAwMDwvVEhFMjVUSF9WQUxVRT48VEhFNTBUSF9WQUxVRT4xMTgwMDAwPC9USEU1MFRIX1ZBTFVFPjxUSEU3NVRIX1ZBTFVFPjEzMzU3NTA8L1RIRTc1VEhfVkFMVUU%2bPFNVQl9QQ1RfUkFOSz41MjwvU1VCX1BDVF9SQU5LPjxTVUJKRUNUX1ZBTFVFPjExOTIwMDA8L1NVQkpFQ1RfVkFMVUU%2bPC9ORUlHSEJPUkhPT0RfUFJJQ0VfUkFOR0VfQ0hBUlQ%2bPC9BVk1DSEFSVFM%2bPC9WRVJPVkFMVUFUSU9OPg%3d%3d<\/CA_DATA>    <CB_DATA>PD94bWwgdmVyc2lvbj0iMS4wIiA%2fPjxDX1BfQ19DSEFSVD48UFJFVklPVVMxMl9NT05USD48UE1EIElURU09IjAiPjxEQT5GZWItMjAyMTwvREE%2bPENUPjA8L0NUPjxaUD4wPC9aUD48L1BNRD48UE1EIElURU09IjEiPjxEQT5NYXktMjAyMTwvREE%2bPENUPjQuODI8L0NUPjxaUD43Ljc5PC9aUD48L1BNRD48UE1EIElURU09IjIiPjxEQT5BdWctMjAyMTwvREE%2bPENUPjExLjY8L0NUPjxaUD4xNC44NjwvWlA%2bPC9QTUQ%2bPFBNRCBJVEVNPSIzIj48REE%2bTm92LTIwMjE8L0RBPjxDVD4xOS44NzwvQ1Q%2bPFpQPjIxLjg4PC9aUD48L1BNRD48UE1EIElURU09IjQiPjxEQT5GZWItMjAyMjwvREE%2bPENUPjI5LjI1PC9DVD48WlA%2bMjguMjU8L1pQPjwvUE1EPjxQTUQgSVRFTT0iNSI%2bPERBPk1heS0yMDIyPC9EQT48Q1Q%2bMzguNzk8L0NUPjxaUD4zMS42NDwvWlA%2bPC9QTUQ%2bPFBNRCBJVEVNPSI2Ij48REE%2bQXVnLTIwMjI8L0RBPjxDVD4zNi4xNzwvQ1Q%2bPFpQPjM1Ljc5PC9aUD48L1BNRD48UE1EIElURU09IjciPjxEQT5Ob3YtMjAyMjwvREE%2bPENUPjMyLjY8L0NUPjxaUD4yNy45NzwvWlA%2bPC9QTUQ%2bPFBNRCBJVEVNPSI4Ij48REE%2bRmViLTIwMjM8L0RBPjxDVD4zMC45MTwvQ1Q%2bPFpQPjMwLjE5PC9aUD48L1BNRD48UE1EIElURU09IjkiPjxEQT5NYXktMjAyMzwvREE%2bPENUPjMyLjIxPC9DVD48WlA%2bMzYuODY8L1pQPjwvUE1EPjxQTUQgSVRFTT0iMTAiPjxEQT5BdWctMjAyMzwvREE%2bPENUPjM5Ljg5PC9DVD48WlA%2bNDUuNjI8L1pQPjwvUE1EPjxQTUQgSVRFTT0iMTEiPjxEQT5Ob3YtMjAyMzwvREE%2bPENUPjQwLjQ0PC9DVD48WlA%2bNTMuNTI8L1pQPjwvUE1EPjxQTUQgSVRFTT0iMTIiPjxEQT5Ob3YtMjAyMzwvREE%2bPENUPjQwLjM3PC9DVD48WlA%2bNTMuNDk8L1pQPjwvUE1EPjwvUFJFVklPVVMxMl9NT05USD48L0NfUF9DX0NIQVJUPg%3d%3d<\/CB_DATA>    <CC_DATA>PD94bWwgdmVyc2lvbj0iMS4wIiA%2fPjxGX0NIQVJUPjxGTT48RiBJVEVNPSIwIj48RkQ%2bMTIvMjAyMzwvRkQ%2bPEZWPjExOTIwMDA8L0ZWPjwvRj48RiBJVEVNPSIxIj48RkQ%2bMDEvMjAyNDwvRkQ%2bPEZWPjExOTQwMDA8L0ZWPjwvRj48RiBJVEVNPSIyIj48RkQ%2bMDIvMjAyNDwvRkQ%2bPEZWPjExOTUwMDA8L0ZWPjwvRj48RiBJVEVNPSIzIj48RkQ%2bMDMvMjAyNDwvRkQ%2bPEZWPjExOTYwMDA8L0ZWPjwvRj48RiBJVEVNPSI0Ij48RkQ%2bMDQvMjAyNDwvRkQ%2bPEZWPjExOTgwMDA8L0ZWPjwvRj48RiBJVEVNPSI1Ij48RkQ%2bMDUvMjAyNDwvRkQ%2bPEZWPjEyMDIwMDA8L0ZWPjwvRj48RiBJVEVNPSI2Ij48RkQ%2bMDYvMjAyNDwvRkQ%2bPEZWPjEyMDQwMDA8L0ZWPjwvRj48RiBJVEVNPSI3Ij48RkQ%2bMDcvMjAyNDwvRkQ%2bPEZWPjEyMDcwMDA8L0ZWPjwvRj48RiBJVEVNPSI4Ij48RkQ%2bMDgvMjAyNDwvRkQ%2bPEZWPjEyMTAwMDA8L0ZWPjwvRj48RiBJVEVNPSI5Ij48RkQ%2bMDkvMjAyNDwvRkQ%2bPEZWPjEyMTMwMDA8L0ZWPjwvRj48RiBJVEVNPSIxMCI%2bPEZEPjEwLzIwMjQ8L0ZEPjxGVj4xMjE1MDAwPC9GVj48L0Y%2bPEYgSVRFTT0iMTEiPjxGRD4xMS8yMDI0PC9GRD48RlY%2bMTIxODAwMDwvRlY%2bPC9GPjxGIElURU09IjEyIj48RkQ%2bMTIvMjAyNDwvRkQ%2bPEZWPjEyMjAwMDA8L0ZWPjwvRj48L0ZNPjxJTkRDPjxGQ1ZBUjE%2bYSBmdW5jdGlvbiBvZiB0aGUgc3VwcGx5IG9mIGF2YWlsYWJsZSBob3VzaW5nPC9GQ1ZBUjE%2bPEZDVkFSMj5hIGZ1bmN0aW9uIG9mIHRoZSBDb25zdW1lciBQcmljZSBJbmRleDwvRkNWQVIyPjxGQ1ZBUjM%2bcmVnaW9uYWwgdW5lbXBsb3ltZW50IHJhdGVzPC9GQ1ZBUjM%2bPC9JTkRDPjxGNm1vMT5zdHJvbmc8L0Y2bW8xPjxGNm1vMj5pbmNyZWFzaW5nPC9GNm1vMj48RjEybW8xPnN0cm9uZzwvRjEybW8xPjxGMTJtbzI%2baW5jcmVhc2luZzwvRjEybW8yPjwvRl9DSEFSVD4%3d<\/CC_DATA>    <CD_DATA>PD94bWwgdmVyc2lvbj0iMS4wIiA%2fPjxGX0NIQVJUPjxGTT48RiBJVEVNPSIwIj48RkQ%2bMTIvMjAyMzwvRkQ%2bPElSPjcuNTA5MzU8L0lSPjwvRj48RiBJVEVNPSIxIj48RkQ%2bMDEvMjAyNDwvRkQ%2bPElSPjcuMjA2MzE8L0lSPjwvRj48RiBJVEVNPSIyIj48RkQ%2bMDIvMjAyNDwvRkQ%2bPElSPjcuMTAyNjwvSVI%2bPC9GPjxGIElURU09IjMiPjxGRD4wMy8yMDI0PC9GRD48SVI%2bNi44MTM1MzwvSVI%2bPC9GPjxGIElURU09IjQiPjxGRD4wNC8yMDI0PC9GRD48SVI%2bNi44MDM3NzwvSVI%2bPC9GPjxGIElURU09IjUiPjxGRD4wNS8yMDI0PC9GRD48SVI%2bNi44Mjc5MjwvSVI%2bPC9GPjxGIElURU09IjYiPjxGRD4wNi8yMDI0PC9GRD48SVI%2bNi44MzEzOTwvSVI%2bPC9GPjxGIElURU09IjciPjxGRD4wNy8yMDI0PC9GRD48SVI%2bNi44NzgxMTwvSVI%2bPC9GPjxGIElURU09IjgiPjxGRD4wOC8yMDI0PC9GRD48SVI%2bNi44NjEyOTwvSVI%2bPC9GPjxGIElURU09IjkiPjxGRD4wOS8yMDI0PC9GRD48SVI%2bNi44MzY4NTwvSVI%2bPC9GPjxGIElURU09IjEwIj48RkQ%2bMTAvMjAyNDwvRkQ%2bPElSPjYuODU0NTc8L0lSPjwvRj48RiBJVEVNPSIxMSI%2bPEZEPjExLzIwMjQ8L0ZEPjxJUj42LjgyNzUyPC9JUj48L0Y%2bPEYgSVRFTT0iMTIiPjxGRD4xMi8yMDI0PC9GRD48SVI%2bNi44MTEzNTwvSVI%2bPC9GPjwvRk0%2bPC9GX0NIQVJUPg%3d%3d<\/CD_DATA>    <CE_DATA>PD94bWwgdmVyc2lvbj0iMS4wIiA%2fPjxGX0NIQVJUPjxGTT48RiBJVEVNPSIwIj48RkQ%2bMTIvMjAyMzwvRkQ%2bPFVSPjQuMDAzMjU8L1VSPjwvRj48RiBJVEVNPSIxIj48RkQ%2bMDEvMjAyNDwvRkQ%2bPFVSPjQuMDU1MDg8L1VSPjwvRj48RiBJVEVNPSIyIj48RkQ%2bMDIvMjAyNDwvRkQ%2bPFVSPjQuMDg3MTg8L1VSPjwvRj48RiBJVEVNPSIzIj48RkQ%2bMDMvMjAyNDwvRkQ%2bPFVSPjQuMTMwNzU8L1VSPjwvRj48RiBJVEVNPSI0Ij48RkQ%2bMDQvMjAyNDwvRkQ%2bPFVSPjQuMTY0MTM8L1VSPjwvRj48RiBJVEVNPSI1Ij48RkQ%2bMDUvMjAyNDwvRkQ%2bPFVSPjQuMjA1MjE8L1VSPjwvRj48RiBJVEVNPSI2Ij48RkQ%2bMDYvMjAyNDwvRkQ%2bPFVSPjQuMjc5NTQ8L1VSPjwvRj48RiBJVEVNPSI3Ij48RkQ%2bMDcvMjAyNDwvRkQ%2bPFVSPjQuMzE2OTc8L1VSPjwvRj48RiBJVEVNPSI4Ij48RkQ%2bMDgvMjAyNDwvRkQ%2bPFVSPjQuMzc0MTk8L1VSPjwvRj48RiBJVEVNPSI5Ij48RkQ%2bMDkvMjAyNDwvRkQ%2bPFVSPjQuNDI1NzM8L1VSPjwvRj48RiBJVEVNPSIxMCI%2bPEZEPjEwLzIwMjQ8L0ZEPjxVUj40LjQ5NzI0PC9VUj48L0Y%2bPEYgSVRFTT0iMTEiPjxGRD4xMS8yMDI0PC9GRD48VVI%2bNC41NTk1MzwvVVI%2bPC9GPjxGIElURU09IjEyIj48RkQ%2bMTIvMjAyNDwvRkQ%2bPFVSPjQuNTcwMzg8L1VSPjwvRj48L0ZNPjwvRl9DSEFSVD4%3d<\/CE_DATA>    <CF_DATA>PD94bWwgdmVyc2lvbj0iMS4wIiA%2fPjxGX0NIQVJUPjxGTT48RiBJVEVNPSIwIj48RkQ%2bMTIvMjAyMzwvRkQ%2bPFBPUD4zMTE4MDAwPC9QT1A%2bPC9GPjxGIElURU09IjEiPjxGRD4wMS8yMDI0PC9GRD48UE9QPjMxMTcwMDA8L1BPUD48L0Y%2bPEYgSVRFTT0iMiI%2bPEZEPjAyLzIwMjQ8L0ZEPjxQT1A%2bMzExNTAwMDwvUE9QPjwvRj48RiBJVEVNPSIzIj48RkQ%2bMDMvMjAyNDwvRkQ%2bPFBPUD4zMTE0MDAwPC9QT1A%2bPC9GPjxGIElURU09IjQiPjxGRD4wNC8yMDI0PC9GRD48UE9QPjMxMTMwMDA8L1BPUD48L0Y%2bPEYgSVRFTT0iNSI%2bPEZEPjA1LzIwMjQ8L0ZEPjxQT1A%2bMzExMTAwMDwvUE9QPjwvRj48RiBJVEVNPSI2Ij48RkQ%2bMDYvMjAyNDwvRkQ%2bPFBPUD4zMTEwMDAwPC9QT1A%2bPC9GPjxGIElURU09IjciPjxGRD4wNy8yMDI0PC9GRD48UE9QPjMxMDgwMDA8L1BPUD48L0Y%2bPEYgSVRFTT0iOCI%2bPEZEPjA4LzIwMjQ8L0ZEPjxQT1A%2bMzEwNzAwMDwvUE9QPjwvRj48RiBJVEVNPSI5Ij48RkQ%2bMDkvMjAyNDwvRkQ%2bPFBPUD4zMTA1MDAwPC9QT1A%2bPC9GPjxGIElURU09IjEwIj48RkQ%2bMTAvMjAyNDwvRkQ%2bPFBPUD4zMTA0MDAwPC9QT1A%2bPC9GPjxGIElURU09IjExIj48RkQ%2bMTEvMjAyNDwvRkQ%2bPFBPUD4zMTAzMDAwPC9QT1A%2bPC9GPjxGIElURU09IjEyIj48RkQ%2bMTIvMjAyNDwvRkQ%2bPFBPUD4zMTAxMDAwPC9QT1A%2bPC9GPjwvRk0%2bPC9GX0NIQVJUPg%3d%3d<\/CF_DATA>    <CG_DATA>PD94bWwgdmVyc2lvbj0iMS4wIiA%2fPjxGX0NIQVJUPjxGTT48RiBJVEVNPSIwIj48RkQ%2bMTIvMjAyMzwvRkQ%2bPENQST4zMDcuOTgzNDwvQ1BJPjwvRj48RiBJVEVNPSIxIj48RkQ%2bMDEvMjAyNDwvRkQ%2bPENQST4zMDguNjY3MTk8L0NQST48L0Y%2bPEYgSVRFTT0iMiI%2bPEZEPjAyLzIwMjQ8L0ZEPjxDUEk%2bMzA5LjM5OTI5PC9DUEk%2bPC9GPjxGIElURU09IjMiPjxGRD4wMy8yMDI0PC9GRD48Q1BJPjMxMC4wNzI3NTwvQ1BJPjwvRj48RiBJVEVNPSI0Ij48RkQ%2bMDQvMjAyNDwvRkQ%2bPENQST4zMTAuNzE1MDY8L0NQST48L0Y%2bPEYgSVRFTT0iNSI%2bPEZEPjA1LzIwMjQ8L0ZEPjxDUEk%2bMzExLjQxODgzPC9DUEk%2bPC9GPjxGIElURU09IjYiPjxGRD4wNi8yMDI0PC9GRD48Q1BJPjMxMi4wNjU0NDwvQ1BJPjwvRj48RiBJVEVNPSI3Ij48RkQ%2bMDcvMjAyNDwvRkQ%2bPENQST4zMTIuNjk5Mzc8L0NQST48L0Y%2bPEYgSVRFTT0iOCI%2bPEZEPjA4LzIwMjQ8L0ZEPjxDUEk%2bMzEzLjM1NzExPC9DUEk%2bPC9GPjxGIElURU09IjkiPjxGRD4wOS8yMDI0PC9GRD48Q1BJPjMxNC4wMzE4ODwvQ1BJPjwvRj48RiBJVEVNPSIxMCI%2bPEZEPjEwLzIwMjQ8L0ZEPjxDUEk%2bMzE0LjY1NDEyPC9DUEk%2bPC9GPjxGIElURU09IjExIj48RkQ%2bMTEvMjAyNDwvRkQ%2bPENQST4zMTUuMjY4OTE8L0NQST48L0Y%2bPEYgSVRFTT0iMTIiPjxGRD4xMi8yMDI0PC9GRD48Q1BJPjMxNS44ODEyMTwvQ1BJPjwvRj48L0ZNPjwvRl9DSEFSVD4%3d<\/CG_DATA>    <CA_PATH>https://www-intg.VeroVALUE.com/vvcharts/avmChart2a.aspx?xx=PD94bWwgdmVyc2lvbj0iMS4wIiA%2fPjxWRVJPVkFMVUFUSU9OPjxBVk1DSEFSVFM%2bPE5FSUdIQk9SSE9PRF9QUklDRV9SQU5HRV9DSEFSVD48TE9XX1ZBTFVFPjQ0NTAwMDwvTE9XX1ZBTFVFPjxISUdIX1ZBTFVFPjMzMzQwMDA8L0hJR0hfVkFMVUU%2bPFRIRTI1VEhfVkFMVUU%2bMTAyODAwMDwvVEhFMjVUSF9WQUxVRT48VEhFNTBUSF9WQUxVRT4xMTgwMDAwPC9USEU1MFRIX1ZBTFVFPjxUSEU3NVRIX1ZBTFVFPjEzMzU3NTA8L1RIRTc1VEhfVkFMVUU%2bPFNVQl9QQ1RfUkFOSz41MjwvU1VCX1BDVF9SQU5LPjxTVUJKRUNUX1ZBTFVFPjExOTIwMDA8L1NVQkpFQ1RfVkFMVUU%2bPC9ORUlHSEJPUkhPT0RfUFJJQ0VfUkFOR0VfQ0hBUlQ%2bPC9BVk1DSEFSVFM%2bPC9WRVJPVkFMVUFUSU9OPg%3d%3d<\/CA_PATH>    <CB_PATH>https://www-intg.VeroVALUE.com/vvcharts/avmChart2b.aspx?xx=PD94bWwgdmVyc2lvbj0iMS4wIiA%2fPjxDX1BfQ19DSEFSVD48UFJFVklPVVMxMl9NT05USD48UE1EIElURU09IjAiPjxEQT5GZWItMjAyMTwvREE%2bPENUPjA8L0NUPjxaUD4wPC9aUD48L1BNRD48UE1EIElURU09IjEiPjxEQT5NYXktMjAyMTwvREE%2bPENUPjQuODI8L0NUPjxaUD43Ljc5PC9aUD48L1BNRD48UE1EIElURU09IjIiPjxEQT5BdWctMjAyMTwvREE%2bPENUPjExLjY8L0NUPjxaUD4xNC44NjwvWlA%2bPC9QTUQ%2bPFBNRCBJVEVNPSIzIj48REE%2bTm92LTIwMjE8L0RBPjxDVD4xOS44NzwvQ1Q%2bPFpQPjIxLjg4PC9aUD48L1BNRD48UE1EIElURU09IjQiPjxEQT5GZWItMjAyMjwvREE%2bPENUPjI5LjI1PC9DVD48WlA%2bMjguMjU8L1pQPjwvUE1EPjxQTUQgSVRFTT0iNSI%2bPERBPk1heS0yMDIyPC9EQT48Q1Q%2bMzguNzk8L0NUPjxaUD4zMS42NDwvWlA%2bPC9QTUQ%2bPFBNRCBJVEVNPSI2Ij48REE%2bQXVnLTIwMjI8L0RBPjxDVD4zNi4xNzwvQ1Q%2bPFpQPjM1Ljc5PC9aUD48L1BNRD48UE1EIElURU09IjciPjxEQT5Ob3YtMjAyMjwvREE%2bPENUPjMyLjY8L0NUPjxaUD4yNy45NzwvWlA%2bPC9QTUQ%2bPFBNRCBJVEVNPSI4Ij48REE%2bRmViLTIwMjM8L0RBPjxDVD4zMC45MTwvQ1Q%2bPFpQPjMwLjE5PC9aUD48L1BNRD48UE1EIElURU09IjkiPjxEQT5NYXktMjAyMzwvREE%2bPENUPjMyLjIxPC9DVD48WlA%2bMzYuODY8L1pQPjwvUE1EPjxQTUQgSVRFTT0iMTAiPjxEQT5BdWctMjAyMzwvREE%2bPENUPjM5Ljg5PC9DVD48WlA%2bNDUuNjI8L1pQPjwvUE1EPjxQTUQgSVRFTT0iMTEiPjxEQT5Ob3YtMjAyMzwvREE%2bPENUPjQwLjQ0PC9DVD48WlA%2bNTMuNTI8L1pQPjwvUE1EPjxQTUQgSVRFTT0iMTIiPjxEQT5Ob3YtMjAyMzwvREE%2bPENUPjQwLjM3PC9DVD48WlA%2bNTMuNDk8L1pQPjwvUE1EPjwvUFJFVklPVVMxMl9NT05USD48L0NfUF9DX0NIQVJUPg%3d%3d<\/CB_PATH>    <CC_PATH>https://www-intg.VeroVALUE.com/vvcharts/avmForeCastChart1.aspx?xx=PD94bWwgdmVyc2lvbj0iMS4wIiA%2fPjxGX0NIQVJUPjxGTT48RiBJVEVNPSIwIj48RkQ%2bMTIvMjAyMzwvRkQ%2bPEZWPjExOTIwMDA8L0ZWPjwvRj48RiBJVEVNPSIxIj48RkQ%2bMDEvMjAyNDwvRkQ%2bPEZWPjExOTQwMDA8L0ZWPjwvRj48RiBJVEVNPSIyIj48RkQ%2bMDIvMjAyNDwvRkQ%2bPEZWPjExOTUwMDA8L0ZWPjwvRj48RiBJVEVNPSIzIj48RkQ%2bMDMvMjAyNDwvRkQ%2bPEZWPjExOTYwMDA8L0ZWPjwvRj48RiBJVEVNPSI0Ij48RkQ%2bMDQvMjAyNDwvRkQ%2bPEZWPjExOTgwMDA8L0ZWPjwvRj48RiBJVEVNPSI1Ij48RkQ%2bMDUvMjAyNDwvRkQ%2bPEZWPjEyMDIwMDA8L0ZWPjwvRj48RiBJVEVNPSI2Ij48RkQ%2bMDYvMjAyNDwvRkQ%2bPEZWPjEyMDQwMDA8L0ZWPjwvRj48RiBJVEVNPSI3Ij48RkQ%2bMDcvMjAyNDwvRkQ%2bPEZWPjEyMDcwMDA8L0ZWPjwvRj48RiBJVEVNPSI4Ij48RkQ%2bMDgvMjAyNDwvRkQ%2bPEZWPjEyMTAwMDA8L0ZWPjwvRj48RiBJVEVNPSI5Ij48RkQ%2bMDkvMjAyNDwvRkQ%2bPEZWPjEyMTMwMDA8L0ZWPjwvRj48RiBJVEVNPSIxMCI%2bPEZEPjEwLzIwMjQ8L0ZEPjxGVj4xMjE1MDAwPC9GVj48L0Y%2bPEYgSVRFTT0iMTEiPjxGRD4xMS8yMDI0PC9GRD48RlY%2bMTIxODAwMDwvRlY%2bPC9GPjxGIElURU09IjEyIj48RkQ%2bMTIvMjAyNDwvRkQ%2bPEZWPjEyMjAwMDA8L0ZWPjwvRj48L0ZNPjxJTkRDPjxGQ1ZBUjE%2bYSBmdW5jdGlvbiBvZiB0aGUgc3VwcGx5IG9mIGF2YWlsYWJsZSBob3VzaW5nPC9GQ1ZBUjE%2bPEZDVkFSMj5hIGZ1bmN0aW9uIG9mIHRoZSBDb25zdW1lciBQcmljZSBJbmRleDwvRkNWQVIyPjxGQ1ZBUjM%2bcmVnaW9uYWwgdW5lbXBsb3ltZW50IHJhdGVzPC9GQ1ZBUjM%2bPC9JTkRDPjxGNm1vMT5zdHJvbmc8L0Y2bW8xPjxGNm1vMj5pbmNyZWFzaW5nPC9GNm1vMj48RjEybW8xPnN0cm9uZzwvRjEybW8xPjxGMTJtbzI%2baW5jcmVhc2luZzwvRjEybW8yPjwvRl9DSEFSVD4%3d<\/CC_PATH>    <CD_PATH>https://www-intg.VeroVALUE.com/vvcharts/avmForeCastChart2.aspx?xx=PD94bWwgdmVyc2lvbj0iMS4wIiA%2fPjxGX0NIQVJUPjxGTT48RiBJVEVNPSIwIj48RkQ%2bMTIvMjAyMzwvRkQ%2bPElSPjcuNTA5MzU8L0lSPjwvRj48RiBJVEVNPSIxIj48RkQ%2bMDEvMjAyNDwvRkQ%2bPElSPjcuMjA2MzE8L0lSPjwvRj48RiBJVEVNPSIyIj48RkQ%2bMDIvMjAyNDwvRkQ%2bPElSPjcuMTAyNjwvSVI%2bPC9GPjxGIElURU09IjMiPjxGRD4wMy8yMDI0PC9GRD48SVI%2bNi44MTM1MzwvSVI%2bPC9GPjxGIElURU09IjQiPjxGRD4wNC8yMDI0PC9GRD48SVI%2bNi44MDM3NzwvSVI%2bPC9GPjxGIElURU09IjUiPjxGRD4wNS8yMDI0PC9GRD48SVI%2bNi44Mjc5MjwvSVI%2bPC9GPjxGIElURU09IjYiPjxGRD4wNi8yMDI0PC9GRD48SVI%2bNi44MzEzOTwvSVI%2bPC9GPjxGIElURU09IjciPjxGRD4wNy8yMDI0PC9GRD48SVI%2bNi44NzgxMTwvSVI%2bPC9GPjxGIElURU09IjgiPjxGRD4wOC8yMDI0PC9GRD48SVI%2bNi44NjEyOTwvSVI%2bPC9GPjxGIElURU09IjkiPjxGRD4wOS8yMDI0PC9GRD48SVI%2bNi44MzY4NTwvSVI%2bPC9GPjxGIElURU09IjEwIj48RkQ%2bMTAvMjAyNDwvRkQ%2bPElSPjYuODU0NTc8L0lSPjwvRj48RiBJVEVNPSIxMSI%2bPEZEPjExLzIwMjQ8L0ZEPjxJUj42LjgyNzUyPC9JUj48L0Y%2bPEYgSVRFTT0iMTIiPjxGRD4xMi8yMDI0PC9GRD48SVI%2bNi44MTEzNTwvSVI%2bPC9GPjwvRk0%2bPC9GX0NIQVJUPg%3d%3d<\/CD_PATH>    <CE_PATH>https://www-intg.VeroVALUE.com/vvcharts/avmForeCastChart3.aspx?xx=PD94bWwgdmVyc2lvbj0iMS4wIiA%2fPjxGX0NIQVJUPjxGTT48RiBJVEVNPSIwIj48RkQ%2bMTIvMjAyMzwvRkQ%2bPFVSPjQuMDAzMjU8L1VSPjwvRj48RiBJVEVNPSIxIj48RkQ%2bMDEvMjAyNDwvRkQ%2bPFVSPjQuMDU1MDg8L1VSPjwvRj48RiBJVEVNPSIyIj48RkQ%2bMDIvMjAyNDwvRkQ%2bPFVSPjQuMDg3MTg8L1VSPjwvRj48RiBJVEVNPSIzIj48RkQ%2bMDMvMjAyNDwvRkQ%2bPFVSPjQuMTMwNzU8L1VSPjwvRj48RiBJVEVNPSI0Ij48RkQ%2bMDQvMjAyNDwvRkQ%2bPFVSPjQuMTY0MTM8L1VSPjwvRj48RiBJVEVNPSI1Ij48RkQ%2bMDUvMjAyNDwvRkQ%2bPFVSPjQuMjA1MjE8L1VSPjwvRj48RiBJVEVNPSI2Ij48RkQ%2bMDYvMjAyNDwvRkQ%2bPFVSPjQuMjc5NTQ8L1VSPjwvRj48RiBJVEVNPSI3Ij48RkQ%2bMDcvMjAyNDwvRkQ%2bPFVSPjQuMzE2OTc8L1VSPjwvRj48RiBJVEVNPSI4Ij48RkQ%2bMDgvMjAyNDwvRkQ%2bPFVSPjQuMzc0MTk8L1VSPjwvRj48RiBJVEVNPSI5Ij48RkQ%2bMDkvMjAyNDwvRkQ%2bPFVSPjQuNDI1NzM8L1VSPjwvRj48RiBJVEVNPSIxMCI%2bPEZEPjEwLzIwMjQ8L0ZEPjxVUj40LjQ5NzI0PC9VUj48L0Y%2bPEYgSVRFTT0iMTEiPjxGRD4xMS8yMDI0PC9GRD48VVI%2bNC41NTk1MzwvVVI%2bPC9GPjxGIElURU09IjEyIj48RkQ%2bMTIvMjAyNDwvRkQ%2bPFVSPjQuNTcwMzg8L1VSPjwvRj48L0ZNPjwvRl9DSEFSVD4%3d<\/CE_PATH>    <CF_PATH>https://www-intg.VeroVALUE.com/vvcharts/avmForeCastChart4.aspx?xx=PD94bWwgdmVyc2lvbj0iMS4wIiA%2fPjxGX0NIQVJUPjxGTT48RiBJVEVNPSIwIj48RkQ%2bMTIvMjAyMzwvRkQ%2bPFBPUD4zMTE4MDAwPC9QT1A%2bPC9GPjxGIElURU09IjEiPjxGRD4wMS8yMDI0PC9GRD48UE9QPjMxMTcwMDA8L1BPUD48L0Y%2bPEYgSVRFTT0iMiI%2bPEZEPjAyLzIwMjQ8L0ZEPjxQT1A%2bMzExNTAwMDwvUE9QPjwvRj48RiBJVEVNPSIzIj48RkQ%2bMDMvMjAyNDwvRkQ%2bPFBPUD4zMTE0MDAwPC9QT1A%2bPC9GPjxGIElURU09IjQiPjxGRD4wNC8yMDI0PC9GRD48UE9QPjMxMTMwMDA8L1BPUD48L0Y%2bPEYgSVRFTT0iNSI%2bPEZEPjA1LzIwMjQ8L0ZEPjxQT1A%2bMzExMTAwMDwvUE9QPjwvRj48RiBJVEVNPSI2Ij48RkQ%2bMDYvMjAyNDwvRkQ%2bPFBPUD4zMTEwMDAwPC9QT1A%2bPC9GPjxGIElURU09IjciPjxGRD4wNy8yMDI0PC9GRD48UE9QPjMxMDgwMDA8L1BPUD48L0Y%2bPEYgSVRFTT0iOCI%2bPEZEPjA4LzIwMjQ8L0ZEPjxQT1A%2bMzEwNzAwMDwvUE9QPjwvRj48RiBJVEVNPSI5Ij48RkQ%2bMDkvMjAyNDwvRkQ%2bPFBPUD4zMTA1MDAwPC9QT1A%2bPC9GPjxGIElURU09IjEwIj48RkQ%2bMTAvMjAyNDwvRkQ%2bPFBPUD4zMTA0MDAwPC9QT1A%2bPC9GPjxGIElURU09IjExIj48RkQ%2bMTEvMjAyNDwvRkQ%2bPFBPUD4zMTAzMDAwPC9QT1A%2bPC9GPjxGIElURU09IjEyIj48RkQ%2bMTIvMjAyNDwvRkQ%2bPFBPUD4zMTAxMDAwPC9QT1A%2bPC9GPjwvRk0%2bPC9GX0NIQVJUPg%3d%3d<\/CF_PATH>    <CG_PATH>https://www-intg.VeroVALUE.com/vvcharts/avmForeCastChart5.aspx?xx=PD94bWwgdmVyc2lvbj0iMS4wIiA%2fPjxGX0NIQVJUPjxGTT48RiBJVEVNPSIwIj48RkQ%2bMTIvMjAyMzwvRkQ%2bPENQST4zMDcuOTgzNDwvQ1BJPjwvRj48RiBJVEVNPSIxIj48RkQ%2bMDEvMjAyNDwvRkQ%2bPENQST4zMDguNjY3MTk8L0NQST48L0Y%2bPEYgSVRFTT0iMiI%2bPEZEPjAyLzIwMjQ8L0ZEPjxDUEk%2bMzA5LjM5OTI5PC9DUEk%2bPC9GPjxGIElURU09IjMiPjxGRD4wMy8yMDI0PC9GRD48Q1BJPjMxMC4wNzI3NTwvQ1BJPjwvRj48RiBJVEVNPSI0Ij48RkQ%2bMDQvMjAyNDwvRkQ%2bPENQST4zMTAuNzE1MDY8L0NQST48L0Y%2bPEYgSVRFTT0iNSI%2bPEZEPjA1LzIwMjQ8L0ZEPjxDUEk%2bMzExLjQxODgzPC9DUEk%2bPC9GPjxGIElURU09IjYiPjxGRD4wNi8yMDI0PC9GRD48Q1BJPjMxMi4wNjU0NDwvQ1BJPjwvRj48RiBJVEVNPSI3Ij48RkQ%2bMDcvMjAyNDwvRkQ%2bPENQST4zMTIuNjk5Mzc8L0NQST48L0Y%2bPEYgSVRFTT0iOCI%2bPEZEPjA4LzIwMjQ8L0ZEPjxDUEk%2bMzEzLjM1NzExPC9DUEk%2bPC9GPjxGIElURU09IjkiPjxGRD4wOS8yMDI0PC9GRD48Q1BJPjMxNC4wMzE4ODwvQ1BJPjwvRj48RiBJVEVNPSIxMCI%2bPEZEPjEwLzIwMjQ8L0ZEPjxDUEk%2bMzE0LjY1NDEyPC9DUEk%2bPC9GPjxGIElURU09IjExIj48RkQ%2bMTEvMjAyNDwvRkQ%2bPENQST4zMTUuMjY4OTE8L0NQST48L0Y%2bPEYgSVRFTT0iMTIiPjxGRD4xMi8yMDI0PC9GRD48Q1BJPjMxNS44ODEyMTwvQ1BJPjwvRj48L0ZNPjwvRl9DSEFSVD4%3d<\/CG_PATH>  <\/CHARTS>  <F_CHART>    <FM>      <F ITEM=\"0\">        <FD>12/2023<\/FD>        <FV>1192000<\/FV>      <\/F>      <F ITEM=\"1\">        <FD>01/2024<\/FD>        <FV>1194000<\/FV>      <\/F>      <F ITEM=\"2\">        <FD>02/2024<\/FD>        <FV>1195000<\/FV>      <\/F>      <F ITEM=\"3\">        <FD>03/2024<\/FD>        <FV>1196000<\/FV>      <\/F>      <F ITEM=\"4\">        <FD>04/2024<\/FD>        <FV>1198000<\/FV>      <\/F>      <F ITEM=\"5\">        <FD>05/2024<\/FD>        <FV>1202000<\/FV>      <\/F>      <F ITEM=\"6\">        <FD>06/2024<\/FD>        <FV>1204000<\/FV>      <\/F>      <F ITEM=\"7\">        <FD>07/2024<\/FD>        <FV>1207000<\/FV>      <\/F>      <F ITEM=\"8\">        <FD>08/2024<\/FD>        <FV>1210000<\/FV>      <\/F>      <F ITEM=\"9\">        <FD>09/2024<\/FD>        <FV>1213000<\/FV>      <\/F>      <F ITEM=\"10\">        <FD>10/2024<\/FD>        <FV>1215000<\/FV>      <\/F>      <F ITEM=\"11\">        <FD>11/2024<\/FD>        <FV>1218000<\/FV>      <\/F>      <F ITEM=\"12\">        <FD>12/2024<\/FD>        <FV>1220000<\/FV>      <\/F>    <\/FM>    <INDC>      <FCVAR1>a function of the supply of available housing<\/FCVAR1>      <FCVAR2>a function of the Consumer Price Index<\/FCVAR2>      <FCVAR3>regional unemployment rates<\/FCVAR3>    <\/INDC>    <F6mo1>strong<\/F6mo1>    <F6mo2>increasing<\/F6mo2>    <F12mo1>strong<\/F12mo1>    <F12mo2>increasing<\/F12mo2>  <\/F_CHART><\/VEROVALUATION>",
+      "DOCUMENT": {
+        "DOCUMENT_TYPE": "",
+        "DOCUMENT_CONTENT": ""
+      }
+    }
+  }
+}

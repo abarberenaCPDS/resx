@@ -1,0 +1,6 @@
+{
+  "PrivateKey": "3bb1f896d61260f39d1a5a8777349105b920beb4",
+  "PublicKey": "vselect-devqapub.pem",
+  "JsonFile": "sample.json",
+  "JsonFileTampered": "sample-tampered.json"
+}
