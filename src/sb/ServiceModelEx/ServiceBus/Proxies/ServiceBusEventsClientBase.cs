@@ -1,6 +1,6 @@
-﻿// © 2011 IDesign Inc. All rights reserved 
-//Questions? Comments? go to 
-//http://www.idesign.net
+﻿ 
+ 
+
 
 using System.ServiceModel;
 using Microsoft.ServiceBus;

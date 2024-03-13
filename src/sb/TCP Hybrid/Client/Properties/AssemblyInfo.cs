@@ -1,6 +1,6 @@
-﻿// © 2011 IDesign Inc. All rights reserved 
-//Questions? Comments? go to 
-//http://www.idesign.net
+﻿ 
+ 
+
 
 #region Using directives
 
@@ -15,9 +15,9 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyTitle("client")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("IDesign Inc")]
+[assembly: AssemblyCompany("Inc.")]
 [assembly: AssemblyProduct("client")]
-[assembly: AssemblyCopyright("Copyright @ IDesign Inc. 2011")]
+[assembly: AssemblyCopyright("Copyright @ Inc. 2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

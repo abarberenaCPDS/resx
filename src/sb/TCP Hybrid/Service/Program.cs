@@ -1,8 +1,4 @@
-﻿// © 2011 IDesign Inc. All rights reserved 
-//Questions? Comments? go to 
-//http://www.idesign.net
-
-using System;
+﻿using System;
 using System.ServiceModel;
 using System.ServiceModel.Description;
 using Microsoft.ServiceBus;
@@ -15,7 +11,7 @@ class Program
     {
         ServiceBusHost host = new ServiceBusHost(typeof(MyService));
         string k = "RootManageSharedAccessKey";
-        string v = "BDfLYPw6/dH8x56jnEXmmafsD/VeAh8lCwMREzd5QGE=";
+        string v = "";
         host.SetServiceBusCredentials(k, v);
         host.ConfigureAnonymousMessageSecurity("localhost");
 

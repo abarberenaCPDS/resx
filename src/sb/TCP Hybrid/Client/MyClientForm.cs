@@ -14,10 +14,8 @@ partial class MyClientForm : Form
 
         m_Proxy = new MyContractClient();
         string k = "RootManageSharedAccessKey";
-        //string v = "Qp1wMzt1tF6x1z0yn9FBF0zLbw/6UagB6974nqHaiVU=";
-        string v = "BDfLYPw6/dH8x56jnEXmmafsD/VeAh8lCwMREzd5QGE=";
+        string v = "KEY";
         m_Proxy.SetServiceBusCredentials(k, v);
-        //m_Proxy.SetServiceBusCredentials(secret);
     }
 
     void OnCallService(object sender, EventArgs e)

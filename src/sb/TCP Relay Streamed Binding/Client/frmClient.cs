@@ -20,6 +20,8 @@ namespace Client
 
             this.proxy = new MyContractClient();
             this.proxy.SetServiceBusCredentials(sbKeyName, sbKeyValue);
+            //this.proxy.SetServiceBusCredentialsWithPolicyName("RootManageSharedAccessKey", "BDfLYPw6/dH8x56jnEXmmafsD/VeAh8lCwMREzd5QGE=");
+
         }
 
         private void button2_Click(object sender, EventArgs e)
